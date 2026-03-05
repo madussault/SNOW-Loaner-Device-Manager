@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>SNS</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>a3a8d1c8836332105587fa96feaad399</logo>
+        <menu/>
+        <name>Loaner Device Manager</name>
+        <package_json/>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_1883746_loaner_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>Allow employees to borrow IT equipment (laptops, projectors, phones) for a short period, while IT tracks inventory and overdue items.</short_description>
+        <source>x_1883746_loaner_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 23:08:19</sys_created_on>
+        <sys_id>8fa891c8836332105587fa96feaad3c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 23:08:22</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=8fa891c8836332105587fa96feaad3c5"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icons8-device-manager-96.png</file_name>
+        <hash>6b2af5e1fd6f2a287af9c125acf3f3b1ec8748b36329a1a9075768e46b51f214</hash>
+        <image_height>96</image_height>
+        <image_width>96</image_width>
+        <size_bytes>612</size_bytes>
+        <size_compressed>612</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 23:08:21</sys_created_on>
+        <sys_id>a3a8d1c8836332105587fa96feaad399</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 23:08:22</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>8fa891c8836332105587fa96feaad3c5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icons8-device-manager-96.png" sys_id="a3a8d1c8836332105587fa96feaad399">a3a8d1c8836332105587fa96feaad399</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 23:08:21</sys_created_on>
+        <sys_id>e3a8d1c8836332105587fa96feaad399</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSCSDMwQYkH80otwBSnAUekcUMDNzCIMzIMGuOBAMDk5ini2NIxZy3N2zzhB0ljn1cfjC8oUTBjzH0gdkEtQIOmTyGnVzyqgoTrQoajrAuYfKewu8k5S14i//8u4j3b979V/cVzk1Lv18voz6NAQoOcPBFeXAInGHpSGU6YsSYNJNhY80DRsEF7IxNQKZPQ4Sag46wwjRj9i2TvkRdcru0dcnmL1uDfuv3GbOXXCt4u+vBv+7HZxhzpdbdFblTXzjHcsHrtuz1XO/2W5yTubDr4a1w1u/xMvwVwnHLww+FStnlH1L+kJ5hADSQc8P8qUuEPeer5lrL5cxeV3nv8+7KdoZqi0klFz8a5L5Wqs0XZ/oSwSvzL692asny5HqmLxaShn/uVl3baM9YVaMp8CD4+D+WFx93OzTEy/4WXvCBeccm9nVvbW6CXWzprzLX+9e1z+dDrtxatnnv1BKb5Qz8qrUrEg6ci3mvYjujquH4pDwtiWXs6+ZPkvM1PVDraa8lsch93ewvWvNiGr6L8pxvvXZ8JWtF1MELMRWy/poHKk/3/vewmlri/9Vy0heluRtfvslfJvKgGijKu79MP/pcneVShtz5D6/8mPx//25mu+BVeg43erWt7RnZlBwMzpseuBKux9TBsDlqJ4cC05msp0oNHBuu9/LXBrDPbWfgZORYsIr5yjGkGIAHO6fA6WJeg6+l0Str+ZSqAtQO2FzPZRFgBJrSAYtAhowt+zfw8wSXXpx6GMT1dPVzWeeU0AQA/ehlAmQCAAA=</data>
+        <length>804</length>
+        <position>1</position>
+        <sys_attachment display_value="icons8-device-manager-96.png" sys_id="a3a8d1c8836332105587fa96feaad399">a3a8d1c8836332105587fa96feaad399</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 23:08:21</sys_created_on>
+        <sys_id>a7a8d1c8836332105587fa96feaad399</sys_id>
+    </sys_attachment_doc>
+</record_update>

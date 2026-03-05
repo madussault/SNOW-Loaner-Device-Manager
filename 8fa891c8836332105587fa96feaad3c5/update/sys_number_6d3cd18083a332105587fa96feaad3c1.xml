@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1883746_loaner_0_loaner_request">x_1883746_loaner_0_loaner_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LNR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 23:23:47</sys_created_on>
+        <sys_id>6d3cd18083a332105587fa96feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LNR</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_number_6d3cd18083a332105587fa96feaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 23:23:47</sys_updated_on>
+    </sys_number>
+</record_update>
