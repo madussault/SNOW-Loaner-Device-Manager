@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ccac845e836332105587fa96feaad31d" sys_domain="global" table="x_1883746_loaner_0_loaner_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88ac845e836332105587fa96feaad323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1883746_loaner_0_loaner_request" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">ccac845e836332105587fa96feaad31d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">c0ac445e836332105587fa96feaad3f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:22:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccac845e836332105587fa96feaad324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1883746_loaner_0_loaner_request" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">ccac845e836332105587fa96feaad31d</sys_ui_form>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">0cac845e836332105587fa96feaad319</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:22:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8ac845e836332105587fa96feaad32b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1883746_loaner_0_loaner_request" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">ccac845e836332105587fa96feaad31d</sys_ui_form>
+            <sys_ui_section caption="Hardware &amp; Schedule" display_value="Hardware &amp; Schedule" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">00ac845e836332105587fa96feaad31b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:22:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8ac845e836332105587fa96feaad332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1883746_loaner_0_loaner_request" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">ccac845e836332105587fa96feaad31d</sys_ui_form>
+            <sys_ui_section caption="Notes &amp; Details" display_value="Notes &amp; Details" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="04ac445e836332105587fa96feaad3ea">04ac845e836332105587fa96feaad31c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:22:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1883746_loaner_0_loaner_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccac845e836332105587fa96feaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ccac845e836332105587fa96feaad31d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:22:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Requester View" name="Requester_View">04ac445e836332105587fa96feaad3ea</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -3,30 +3,28 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <applies_to table="x_1883746_loaner_0_loaner_request">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </applies_to>
+        <applies_to/>
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Allow the user to see a loan request record only if the loan has been requested by him</description>
+        <description/>
         <local_or_existing>Existing</local_or_existing>
-        <name>x_1883746_loaner_0_loaner_request</name>
+        <name>x_1883746_loaner_0_loaner_request.*</name>
         <operation display_value="read">read</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-05 23:23:50</sys_created_on>
-        <sys_id>5e3c558083a332105587fa96feaad3b1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+        <sys_created_on>2026-03-10 21:02:22</sys_created_on>
+        <sys_id>3ecb2aad83a732105587fa96feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1883746_loaner_0_loaner_request.*</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
-        <sys_update_name>sys_security_acl_5e3c558083a332105587fa96feaad3b1</sys_update_name>
+        <sys_update_name>sys_security_acl_3ecb2aad83a732105587fa96feaad3c7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-10 21:45:40</sys_updated_on>
+        <sys_updated_on>2026-03-10 21:02:22</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

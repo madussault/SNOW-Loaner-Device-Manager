@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-10 21:40:30</sys_created_on>
+        <sys_id>d584be21832b32105587fa96feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1883746_loaner_0.fulfiller</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_security_acl display_value="">9d84be21832b32105587fa96feaad309</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d584be21832b32105587fa96feaad30a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 21:40:30</sys_updated_on>
+        <sys_user_role display_value="x_1883746_loaner_0.fulfiller" name="x_1883746_loaner_0.fulfiller">8ba8d1c8836332105587fa96feaad319</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_security_acl_role_d584be21832b32105587fa96feaad30a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-10 21:40:30</sys_created_on><sys_id>d584be21832b32105587fa96feaad30a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1883746_loaner_0.fulfiller</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_security_acl display_value="">9d84be21832b32105587fa96feaad309</sys_security_acl><sys_update_name>sys_security_acl_role_d584be21832b32105587fa96feaad30a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-10 21:40:30</sys_updated_on><sys_user_role display_value="x_1883746_loaner_0.fulfiller" name="x_1883746_loaner_0.fulfiller">8ba8d1c8836332105587fa96feaad319</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1985016956</payload_hash>
+        <record_name>.x_1883746_loaner_0.fulfiller</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-10 21:40:30</sys_created_on>
+        <sys_id>dd843261832b32105587fa96feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cd9b1be170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 21:40:30</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9d843261512b3210197561d6259c40d3</update_guid>
+        <update_guid_history>9d843261512b3210197561d6259c40d3:1985016956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1883746_loaner_0.fulfiller">a49d14de83e332105587fa96feaad3c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-12 18:36:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3bfa58846f5244e1a0824e609a89fcf1</sys_id>
+        <sys_metadata>d584be21832b32105587fa96feaad30a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1883746_loaner_0.fulfiller</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d584be21832b32105587fa96feaad30a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d584be21832b32105587fa96feaad30a">dd843261832b32105587fa96feaad3d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-12 18:36:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
