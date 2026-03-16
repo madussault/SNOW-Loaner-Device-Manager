@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>cancel_loan_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(current.state == 10 || current.state == 11 ) &amp;&amp; current.approval != 'rejected' &amp;&amp; gs.hasRole('x_1883746_loaner_0.requester')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Cancel Loan Request</name>
+        <onclick>confirmCancel()</onclick>
+        <order>100</order>
+        <script><![CDATA[// 1. CLIENT-SIDE: This runs the moment the button is clicked
+function confirmCancel() {
+    // Pop up the confirmation box
+    var answer = confirm("Are you sure you want to cancel this loan request? This action cannot be undone.");
+
+    // If the user clicks "OK"
+    if (answer == true) {
+        // gsftSubmit sends the action back to the server. 
+        // IMPORTANT: The third parameter MUST perfectly match your 'Action name'
+        gsftSubmit(null, g_form.getFormElement(), 'cancel_loan_request');
+    } else {
+        // If they click "Cancel", stop everything
+        return false;
+    }
+}
+
+// 2. SERVER-SIDE: This runs only after gsftSubmit is called above
+if (typeof window == 'undefined') {
+    executeCancellation();
+}
+
+function executeCancellation() {
+    // Update the state to the backend value for Cancelled
+    current.state = 12;
+    current.update();
+
+    // Refresh the page and show a success message
+    gs.addInfoMessage("Your loaner request has been successfully cancelled.");
+    action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-16 18:50:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af15456383e732105587fa96feaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Cancel Loan Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_ui_action_af15456383e732105587fa96feaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-16 19:17:09</sys_updated_on>
+        <table>x_1883746_loaner_0_loaner_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
