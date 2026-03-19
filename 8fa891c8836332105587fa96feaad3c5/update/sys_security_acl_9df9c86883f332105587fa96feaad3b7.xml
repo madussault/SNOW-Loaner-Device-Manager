@@ -3,29 +3,28 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <applies_to table="x_1883746_loaner_0_loaner_request.u_end_date">state=10^approval!=rejected^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </applies_to>
+        <applies_to/>
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Let the requester change the dates of the loan if the state is still "requested" and the manager did not reject the loan request.</description>
+        <description>Since we created a field level ACL to allow the requester role to modify the field on some conditions, we also have to create permissions for the other scoped roles so they can keep modifying the field.</description>
         <local_or_existing>Existing</local_or_existing>
-        <name>x_1883746_loaner_0_loaner_request.u_end_date</name>
+        <name>x_1883746_loaner_0_loaner_request.u_start_date</name>
         <operation display_value="write">write</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-16 17:15:52</sys_created_on>
-        <sys_id>2771386b832732105587fa96feaad30d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_1883746_loaner_0_loaner_request.u_end_date</sys_name>
+        <sys_created_on>2026-03-19 17:03:07</sys_created_on>
+        <sys_id>9df9c86883f332105587fa96feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1883746_loaner_0_loaner_request.u_start_date</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
-        <sys_update_name>sys_security_acl_2771386b832732105587fa96feaad30d</sys_update_name>
+        <sys_update_name>sys_security_acl_9df9c86883f332105587fa96feaad3b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-19 16:14:45</sys_updated_on>
+        <sys_updated_on>2026-03-19 17:03:07</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
