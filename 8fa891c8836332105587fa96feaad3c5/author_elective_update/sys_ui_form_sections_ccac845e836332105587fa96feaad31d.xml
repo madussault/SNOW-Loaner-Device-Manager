@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="ccac845e836332105587fa96feaad31d" sys_domain="global" table="x_1883746_loaner_0_loaner_request" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1883746_loaner_0_loaner_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccac845e836332105587fa96feaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ccac845e836332105587fa96feaad31d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:22:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="">04ac445e836332105587fa96feaad3ea</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_ui_form_sections_ccac845e836332105587fa96feaad31d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="ccac845e836332105587fa96feaad31d" sys_domain="global" table="x_1883746_loaner_0_loaner_request" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1883746_loaner_0_loaner_request</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-12 17:22:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ccac845e836332105587fa96feaad31d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1883746_loaner_0_loaner_request</sys_name><sys_overrides/><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_ui_form_sections_ccac845e836332105587fa96feaad31d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-12 17:22:24</sys_updated_on><sys_user/><view display_value="">04ac445e836332105587fa96feaad3ea</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1417753840</payload_hash>
+        <record_name>Loaner Request</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-20 19:21:11</sys_created_on>
+        <sys_id>8684f9f483b732105587fa96feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d0cb1c85b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-20 19:21:11</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>4e84f9f428b73210a3a8d36397cf7623</update_guid>
+        <update_guid_history>4e84f9f428b73210a3a8d36397cf7623:-1417753840,0a84f9f49bb732106639dc3052432d0f:10622796,4684b9f474b732103852d59d52261df4:-1912345473,4e84b9f4aeb732106559b82456b691dc:488268471,98ac845eda633210f0cd43af298d4035:-325565610,94ac845eaa6332107e9a2a907bc3922e:-284178146,98ac845e5e63321073c0f5c042fd7027:-1846155554,04ac845e416332109bb41d327ae80421:-1511485201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-20 19:21:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>09c4c37337694880815b0f25f7684000</sys_id>
+        <sys_metadata>ccac845e836332105587fa96feaad31d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent display_value="Loaner Request">9d3cd18083a332105587fa96feaad369</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_ccac845e836332105587fa96feaad31d</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_ccac845e836332105587fa96feaad31d">8684f9f483b732105587fa96feaad331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-20 19:21:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

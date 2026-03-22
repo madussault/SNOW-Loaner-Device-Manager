@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notes &amp; Details" section_id="63a88456836332105587fa96feaad37a" sys_domain="global" table="x_1883746_loaner_0_loaner_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-14 18:29:20</sys_created_on>
+            <sys_id>c02f62f6832776105587fa96feaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes &amp; Details" display_value="Notes &amp; Details" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="Default view">63a88456836332105587fa96feaad37a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-14 18:29:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-14 18:29:20</sys_created_on>
+            <sys_id>8c2f62f6832776105587fa96feaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes &amp; Details" display_value="Notes &amp; Details" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="Default view">63a88456836332105587fa96feaad37a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-14 18:29:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notes &amp; Details</caption>
+            <header>false</header>
+            <name>x_1883746_loaner_0_loaner_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-12 17:05:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63a88456836332105587fa96feaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+            <sys_update_name>sys_ui_section_63a88456836332105587fa96feaad37a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-12 17:05:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_ui_section_63a88456836332105587fa96feaad37a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Notes &amp; Details" section_id="63a88456836332105587fa96feaad37a" sys_domain="global" table="x_1883746_loaner_0_loaner_request" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-14 18:29:20</sys_created_on><sys_id>c02f62f6832776105587fa96feaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes &amp; Details" display_value="Notes &amp; Details" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="Default view">63a88456836332105587fa96feaad37a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-14 18:29:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-14 18:29:20</sys_created_on><sys_id>8c2f62f6832776105587fa96feaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes &amp; Details" display_value="Notes &amp; Details" name="x_1883746_loaner_0_loaner_request" sys_domain="global" view="Default view">63a88456836332105587fa96feaad37a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-14 18:29:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Notes &amp; Details</caption><header>false</header><name>x_1883746_loaner_0_loaner_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-12 17:05:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>63a88456836332105587fa96feaad37a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1883746_loaner_0_loaner_request</sys_name><sys_overrides/><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_ui_section_63a88456836332105587fa96feaad37a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-12 17:05:09</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>671614811</payload_hash>
+        <record_name>Loaner Request</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-14 18:29:20</sys_created_on>
+        <sys_id>842f62f6832776105587fa96feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ced9c2b3d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-14 18:29:20</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c42f62f63a2776105c7254c5ab74591e</update_guid>
+        <update_guid_history>c42f62f63a2776105c7254c5ab74591e:671614811,5b72ea7ec9a3761017e8c0f097566119:1985199675,f3a884560e633210c0ae7f6cdfcd0eaf:671614811</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-22 21:17:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3c4a706491064834b503bab4bfc88490</sys_id>
+        <sys_metadata>63a88456836332105587fa96feaad37a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes &amp; Details</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent display_value="Loaner Request">9d3cd18083a332105587fa96feaad369</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_ui_section_63a88456836332105587fa96feaad37a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_63a88456836332105587fa96feaad37a">842f62f6832776105587fa96feaad31f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-22 21:17:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

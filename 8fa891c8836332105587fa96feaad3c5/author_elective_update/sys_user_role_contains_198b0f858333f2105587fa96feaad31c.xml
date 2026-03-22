@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_1883746_loaner_0.admin" name="x_1883746_loaner_0.admin">07a8d1c8836332105587fa96feaad341</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-21 20:19:42</sys_created_on>
+        <sys_id>198b0f858333f2105587fa96feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1883746_loaner_0.admin</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_user_role_contains_198b0f858333f2105587fa96feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-21 20:19:42</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_user_role_contains_198b0f858333f2105587fa96feaad31c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains><role display_value="x_1883746_loaner_0.admin" name="x_1883746_loaner_0.admin">07a8d1c8836332105587fa96feaad341</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-21 20:19:42</sys_created_on><sys_id>198b0f858333f2105587fa96feaad31c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>canvas_user.x_1883746_loaner_0.admin</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_user_role_contains_198b0f858333f2105587fa96feaad31c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-21 20:19:42</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-1876040461</payload_hash>
+        <record_name>canvas_user.x_1883746_loaner_0.admin</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-21 20:19:42</sys_created_on>
+        <sys_id>118b0f858333f2105587fa96feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d120dba0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-21 20:19:42</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>dd8b0f851533f21086e2eecf0307ba22</update_guid>
+        <update_guid_history>dd8b0f851533f21086e2eecf0307ba22:-1876040461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-21 20:52:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>20cb1d2434b24e00bdb5139a6416ce40</sys_id>
+        <sys_metadata>198b0f858333f2105587fa96feaad31c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1883746_loaner_0.admin</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_198b0f858333f2105587fa96feaad31c</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_198b0f858333f2105587fa96feaad31c">118b0f858333f2105587fa96feaad324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-21 20:52:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

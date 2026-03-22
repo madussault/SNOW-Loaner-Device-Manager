@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Let the loan requester fill a new loan request but prevent him from modifying it after it is saved.</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1883746_loaner_0_loaner_request</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-10 18:33:42</sys_created_on>
+        <sys_id>01c682a183a332105587fa96feaad339</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_security_acl_01c682a183a332105587fa96feaad339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 19:12:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_security_acl_01c682a183a332105587fa96feaad339</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Let the loan requester fill a new loan request but prevent him from modifying it after it is saved.</description><local_or_existing>Existing</local_or_existing><name>x_1883746_loaner_0_loaner_request</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-10 18:33:42</sys_created_on><sys_id>01c682a183a332105587fa96feaad339</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1883746_loaner_0_loaner_request</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_security_acl_01c682a183a332105587fa96feaad339</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-10 19:12:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>944115009</payload_hash>
+        <record_name>x_1883746_loaner_0_loaner_request</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-10 19:12:18</sys_created_on>
+        <sys_id>ea921ee983e332105587fa96feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cd92a0fc60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 19:12:18</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2a921ee91ce332101699379bef0536cc</update_guid>
+        <update_guid_history>2a921ee91ce332101699379bef0536cc:944115009,876a4ee928a33210fea23f7b7d32cee1:-145375220,8dc9c6a972a3321008efe837cc981fd9:1524452765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-20 20:41:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>66d1bb2e01e043fea20520dad279bfc4</sys_id>
+        <sys_metadata>01c682a183a332105587fa96feaad339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1883746_loaner_0_loaner_request</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent display_value="x_1883746_loaner_0_loaner_request">d93cd18083a332105587fa96feaad36f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_01c682a183a332105587fa96feaad339</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_01c682a183a332105587fa96feaad339">ea921ee983e332105587fa96feaad3cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-20 20:41:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
