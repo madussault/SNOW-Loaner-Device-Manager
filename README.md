@@ -34,7 +34,6 @@ The **Loaner Device Manager** is a custom-built ServiceNow application designed 
 
 ### 5. Scheduled Jobs & Event-Driven Notifications
 * **Nightly Automation & Events:** Built a server-side Scheduled Script Execution that runs daily at midnight. It uses GlideRecord queries to identify "deployed" devices past their End Date and fires a custom event (x_1883746_loaner_0.loaner.overdue) for each one.
-* **Event Registry:** The scheduled job fires a custom event ('x_1883746_loaner_0.loaner.overdue') rather than sending emails directly.
 * **Email Notifications:** Configured a notification that listens for the event and sends a dynamically generated email to the requester, asking them to return their device.
 
 ### 6. IT Staff Dashboard (Platform Analytics)
