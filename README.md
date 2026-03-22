@@ -33,21 +33,25 @@ The **Loaner Device Manager** is a custom-built ServiceNow application designed 
 * **Event Registry:** The scheduled job fires a custom event ('x_1883746_loaner_0.loaner.overdue') rather than sending emails directly.
 * **Email Notifications:** Configured a notification that listens for the event and sends a dynamically generated email to the requester, asking them to return their device.
 
-### 6. IT Leadership Dashboard
+### 6. IT Staff Dashboard (Platform Analytics)
 Created a centralized reporting dashboard for IT Asset Managers featuring:
 * **Single Score Reports:** Tracking real-time "Overdue Devices" and "Active Deployments."
 * **Data Visualization:** A Pie Chart breaking down all historical requests by their current State.
 
 ## Loan Request Lifecycle:
-<img width="975" height="1104" alt="image" src="https://github.com/user-attachments/assets/73ba0b44-d9a1-4cfc-9543-5f4e87254006" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/73ba0b44-d9a1-4cfc-9543-5f4e87254006" />
 
 ## Backend form for the "loaner request" table:
 <img width="1437" height="817" alt="image" src="https://github.com/user-attachments/assets/3e8d4506-3947-4d3d-b07d-4b3573fe286a" />
 
 ## Loan Approval Flow:
-<img width="627" height="711" alt="image" src="https://github.com/user-attachments/assets/75e9a8af-5051-46d6-807b-b144a726afd4" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/75e9a8af-5051-46d6-807b-b144a726afd4" />
 
 ## Dashboard:
 <img width="1909" height="901" alt="image" src="https://github.com/user-attachments/assets/d72b526d-7207-4e8b-b58b-20c0f9065621" />
+
+## Code Highlights (Prevent State Regression)
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/698f94d6-dbbd-4bc8-b6cc-e5f81c4e1529" />
+
 
 
