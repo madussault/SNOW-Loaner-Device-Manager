@@ -3,11 +3,15 @@
 ## 📋 Overview
 The **Loaner Device Manager** is a custom-built ServiceNow application designed to streamline the process of temporarily borrowing IT equipment (laptops, projectors, mobile devices). It handles the full lifecycle of a hardware loan, from the initial user request via the Service Portal to manager approval, IT fulfillment, and automated overdue tracking. 
 
+<p align="center">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/cbc18e8c-b6a2-4bc9-8765-6f1bababcaca" />
+</p>
+
 *Note: This is a fictional application developed as a portfolio project to demonstrate end-to-end ServiceNow development capabilities.*
 
 ## 🏗️ Architecture & Key Features
 
-### 1. Data Model (Backend Foundation)
+### 1. Data Model & Integrity
 * **Custom Table:** Built a dedicated Loaner Request table extending the Task table. This approach was chosen to automatically inherit core system fields—such as assigned_to, opened_by, work_notes, approval, and state.
 * **Data Integrity:** Implemented Data Policies and Dictionary Overrides to enforce mandatory fields dynamically based on the state of the request (e.g., ensuring devices and dates are required before deployment).
 * **State Management**: Built a Business Rule to prevent illogical state regressions (e.g., preventing a "Deployed" state from moving backwards to "Requested").
@@ -37,9 +41,6 @@ The **Loaner Device Manager** is a custom-built ServiceNow application designed 
 Created a centralized reporting dashboard for IT Asset Managers featuring:
 * **Single Score Reports:** Tracking real-time "Overdue Devices" and "Active Deployments."
 * **Data Visualization:** A Pie Chart breaking down all historical requests by their current State.
-
-## Loan Request Lifecycle:
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/73ba0b44-d9a1-4cfc-9543-5f4e87254006" />
 
 ## Backend form for the "loaner request" table:
 <img width="1437" height="817" alt="image" src="https://github.com/user-attachments/assets/3e8d4506-3947-4d3d-b07d-4b3573fe286a" />
