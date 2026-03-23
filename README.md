@@ -18,7 +18,7 @@ The **Loaner Device Manager** is a custom-built ServiceNow application designed 
 * **Reference Fields & Dot-Walking:** Connected to the standard alm_asset (Hardware) and sys_user tables, using dot-walking to pull related data (like asset tags and manager names) directly onto the form as read-only text.
 
 ### 2. User Experience (UI/UX)
-* **Service Portal Interface:** Developed a user-friendly **Record Producer** accessible via an Icon Link on the Service Portal, allowing end-users to submit requests seamlessly.
+* **Service Portal Interface:** Developed a user-friendly **Record Producer** accessible via the Service Portal or Employee Center, allowing end-users to submit requests seamlessly.
 * **Progressive Disclosure:** Utilized **Catalog UI Policies** (Portal) and standard **UI Policies** (Backend) to hide schedule fields until prerequisite data is entered, keeping the form clean.
 * **Client-Side Validation:** Created an `onSubmit` **Client Script** that validates date logic (ensuring the return date cannot be before the pickup date) and returns an error messages.
 * **Custom UI Actions:** Built form buttons enabling users to cancel their requests before the device is "deployed".
