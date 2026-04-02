@@ -13,7 +13,7 @@ The **Loaner Device Manager** is a custom-built ServiceNow application designed 
 
 ### 1. Data Model & Business Logic
 * **Custom Table:** Built a dedicated Loaner Request table extending the Task table. This approach was chosen to automatically inherit core system fields—such as assigned_to, opened_by, work_notes, approval, and state.
-* **Data Integrity:** Implemented Data Policies and Dictionary Overrides to enforce mandatory fields dynamically based on the state of the request (e.g., ensuring devices and dates are required before deployment).
+* **Data Integrity:** Implemented Data Policies to enforce mandatory fields dynamically based on the state of the request (e.g., ensuring devices and dates are required before deployment).
 * **State Management**: Built a Business Rule to prevent illogical state regressions (e.g., preventing a "Deployed" state from moving backwards to "Requested").
 * **Reference Fields & Dot-Walking:** Connected to the standard alm_asset (Hardware) and sys_user tables, using dot-walking to pull related data (like asset tags and manager names) directly onto the form as read-only text.
 
