@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_template">
+    <sys_atf_test_template action="DELETE">
+        <description>Creates a test user with the requester role.</description>
+        <name>Create user: Loaner requester</name>
+        <sys_class_name>sys_atf_test_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 18:08:51</sys_created_on>
+        <sys_id>266060cd834883105587fa96feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create user: Loaner requester</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_template_266060cd834883105587fa96feaad380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 18:08:51</sys_updated_on>
+        <template/>
+    </sys_atf_test_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_template_266060cd834883105587fa96feaad380</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_template"><sys_atf_test_template action="INSERT_OR_UPDATE"><description>Creates a test user with the requester role.</description><name>Create user: Loaner requester</name><sys_class_name>sys_atf_test_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-02 18:08:51</sys_created_on><sys_id>266060cd834883105587fa96feaad380</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create user: Loaner requester</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_template_266060cd834883105587fa96feaad380</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-02 18:08:51</sys_updated_on><template/></sys_atf_test_template></record_update>]]></payload>
+        <payload_hash>-636261081</payload_hash>
+        <record_name>Create user: Loaner requester</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 18:08:51</sys_created_on>
+        <sys_id>dda060cd834883105587fa96feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4f623d060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 18:08:51</sys_updated_on>
+        <type>Test Template</type>
+        <update_guid>9da060cdbc48831096aee6d83afec389</update_guid>
+        <update_guid_history>9da060cdbc48831096aee6d83afec389:-636261081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 18:34:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_template">sys_atf_test_template</sys_db_object>
+        <sys_id>e52376c73b3a48b88c8de71af4dbec90</sys_id>
+        <sys_metadata>266060cd834883105587fa96feaad380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create user: Loaner requester</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_template_266060cd834883105587fa96feaad380</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_template_266060cd834883105587fa96feaad380">dda060cd834883105587fa96feaad38a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 18:34:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

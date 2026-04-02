@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <input_filter/>
+        <name>Custom Table &amp; Defaults</name>
+        <parent display_value="Data Model &amp; Business Logic">e474f728834403105587fa96feaad3ec</parent>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 20:42:48</sys_created_on>
+        <sys_id>c179fb60838403105587fa96feaad3c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Custom Table &amp; Defaults</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_c179fb60838403105587fa96feaad3c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 18:52:43</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

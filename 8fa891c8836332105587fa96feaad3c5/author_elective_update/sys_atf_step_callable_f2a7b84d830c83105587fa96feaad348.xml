@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_callable">
+    <sys_atf_step_callable action="DELETE">
+        <active>true</active>
+        <callable_inputs/>
+        <callable_outputs/>
+        <callable_test display_value="Create Loaner Requester">97c4ecc5838883105587fa96feaad320</callable_test>
+        <copied_from/>
+        <description>Creates a test user with the requester role.</description>
+        <display_name>Execute Test: Create Loaner Requester</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config/>
+        <sys_class_name>sys_atf_step_callable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 19:49:43</sys_created_on>
+        <sys_id>f2a7b84d830c83105587fa96feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute Test: Create Loaner Requester</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_callable_f2a7b84d830c83105587fa96feaad348</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:49:43</sys_updated_on>
+        <table/>
+        <test display_value="Mandatory: &quot;loan a device&quot; &amp; &quot;requested for&quot;">6c957849830c83105587fa96feaad3c2</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step_callable>
+    <sys_variable_value action="DELETE" query="document_key=f2a7b84d830c83105587fa96feaad348"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_callable_f2a7b84d830c83105587fa96feaad348</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_callable"><sys_atf_step_callable action="INSERT_OR_UPDATE"><active>true</active><callable_inputs/><callable_outputs/><callable_test display_value="Create Loaner Requester">97c4ecc5838883105587fa96feaad320</callable_test><copied_from/><description>Creates a test user with the requester role.</description><display_name>Execute Test: Create Loaner Requester</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config/><sys_class_name>sys_atf_step_callable</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-02 19:49:43</sys_created_on><sys_id>f2a7b84d830c83105587fa96feaad348</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Execute Test: Create Loaner Requester</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_callable_f2a7b84d830c83105587fa96feaad348</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-02 19:49:43</sys_updated_on><table/><test display_value="Mandatory: &quot;loan a device&quot; &amp; &quot;requested for&quot;">6c957849830c83105587fa96feaad3c2</test><timeout/><warning_message/></sys_atf_step_callable><sys_variable_value action="delete_multiple" query="document_key=f2a7b84d830c83105587fa96feaad348"/></record_update>]]></payload>
+        <payload_hash>-327883532</payload_hash>
+        <record_name>Execute Test: Create Loaner Requester</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 19:49:43</sys_created_on>
+        <sys_id>b2b7f84d830c83105587fa96feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4fbe95560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:49:43</sys_updated_on>
+        <type>Reusable Test Step</type>
+        <update_guid>72b7f84da10c83105910763836b9ffe3</update_guid>
+        <update_guid_history>72b7f84da10c83105910763836b9ffe3:-327883532</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 20:12:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step_callable">sys_atf_step_callable</sys_db_object>
+        <sys_id>d217f4c82c3645589026e280437a8c90</sys_id>
+        <sys_metadata>f2a7b84d830c83105587fa96feaad348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute Test: Create Loaner Requester</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_callable_f2a7b84d830c83105587fa96feaad348</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_callable_f2a7b84d830c83105587fa96feaad348">b2b7f84d830c83105587fa96feaad3e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 20:12:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
