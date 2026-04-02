@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="9d3cd18083a332105587fa96feaad369" extends="task" label="Loaner Request" max_length="40" name="x_1883746_loaner_0_loaner_request" type="collection">
         <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="u_end_date" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" default="javascript: gs.hasRole('x_1883746_loaner_0.requester') ? gs.getUserID() : '';" label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" default="javascript: gs.hasRole('x_1883746_loaner_0.requester') ? gs.getUserID() : '';" label="Requested For" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="u_start_date" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="Loan a Device" mandatory="true" max_length="32" name="u_device" reference="alm_asset" type="reference"/>
+        <element attributes="encode_utf8=false" label="Loan a Device" max_length="32" name="u_device" reference="alm_asset" type="reference"/>
     </element>
 </database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_requested_for</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 21:19:08</sys_created_on>
+        <sys_data_policy display_value="requested_for is mandatory">24db0d4583cc83105587fa96feaad38e</sys_data_policy>
+        <sys_id>b42cc58583cc83105587fa96feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_data_policy_rule_b42cc58583cc83105587fa96feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 21:19:08</sys_updated_on>
+        <table>x_1883746_loaner_0_loaner_request</table>
+    </sys_data_policy_rule>
+</record_update>
