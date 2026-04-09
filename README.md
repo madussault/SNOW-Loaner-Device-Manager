@@ -51,7 +51,7 @@ Created a centralized reporting dashboard for IT Asset Managers featuring:
 <img width="1909" height="901" alt="image" src="https://github.com/user-attachments/assets/d72b526d-7207-4e8b-b58b-20c0f9065621" />
 
 ## Script Sample (Prevent State Regression)
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/698f94d6-dbbd-4bc8-b6cc-e5f81c4e1529" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/9198409b-2fed-4fd5-b0ce-6fcef15c99f7" />
 
 
 
