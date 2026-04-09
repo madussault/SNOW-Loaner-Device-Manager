@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_1883746_loaner_0_loaner_request">numberSTARTSWITH^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_1883746_loaner_0_loaner_request</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>ffff</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 21:39:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c6ac007830c03105587fa96feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ffff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_data_policy2_2c6ac007830c03105587fa96feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 21:39:55</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_data_policy2_2c6ac007830c03105587fa96feaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="x_1883746_loaner_0_loaner_request">numberSTARTSWITH^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_1883746_loaner_0_loaner_request</model_table><reverse_if_false>true</reverse_if_false><short_description>ffff</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-08 21:39:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c6ac007830c03105587fa96feaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ffff</sys_name><sys_overrides/><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_data_policy2_2c6ac007830c03105587fa96feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-08 21:39:55</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1480915760</payload_hash>
+        <record_name>ffff</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 21:39:55</sys_created_on>
+        <sys_id>a77ac407830c03105587fa96feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d6f09a14d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 21:39:55</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>e37ac407ee0c0310c8dd5703b4837a19</update_guid>
+        <update_guid_history>e37ac407ee0c0310c8dd5703b4837a19:1480915760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 21:40:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>87b91999f9b24dd499d8fb2712917651</sys_id>
+        <sys_metadata>2c6ac007830c03105587fa96feaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ffff</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent display_value="Loaner Request">9d3cd18083a332105587fa96feaad369</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_2c6ac007830c03105587fa96feaad39a</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_2c6ac007830c03105587fa96feaad39a">a77ac407830c03105587fa96feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 21:40:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

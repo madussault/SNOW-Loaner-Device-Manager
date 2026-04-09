@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:51:11</sys_created_on>
+        <sys_id>709137be830803105587fa96feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>541d2f36830803105587fa96feaad3b0</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_709137be830803105587fa96feaad30a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 19:51:11</sys_updated_on>
+        <test display_value="u_requested_for auto-populates for requester">541d2f36830803105587fa96feaad3b0</test>
+        <test_suite display_value="Custom Table &amp; Defaults">c179fb60838403105587fa96feaad3c2</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

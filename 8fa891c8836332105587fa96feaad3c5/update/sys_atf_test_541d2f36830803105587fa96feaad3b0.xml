@@ -2,26 +2,26 @@
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Validate that "approval" and "state" default to "requested" on new form load.</description>
+        <description>When a user with the role of requester is creating a new form the field "requested for" is filled with that user by default. </description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
         <fail_on_server_error>true</fail_on_server_error>
-        <name>State and Approval are Defaults</name>
+        <name>u_requested_for auto-populates for requester</name>
         <parameters/>
         <remember/>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-02 18:13:54</sys_created_on>
-        <sys_id>fe812841838883105587fa96feaad33d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>State and Approval are Defaults</sys_name>
+        <sys_created_on>2026-04-08 19:32:53</sys_created_on>
+        <sys_id>541d2f36830803105587fa96feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for auto-populates for requester</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
-        <sys_update_name>sys_atf_test_fe812841838883105587fa96feaad33d</sys_update_name>
+        <sys_update_name>sys_atf_test_541d2f36830803105587fa96feaad3b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 18:48:46</sys_updated_on>
+        <sys_updated_on>2026-04-08 19:32:53</sys_updated_on>
         <test_origin>manual</test_origin>
     </sys_atf_test>
-    <sys_variable_value action="delete_multiple" query="document_key=fe812841838883105587fa96feaad33d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=541d2f36830803105587fa96feaad3b0"/>
 </record_update>

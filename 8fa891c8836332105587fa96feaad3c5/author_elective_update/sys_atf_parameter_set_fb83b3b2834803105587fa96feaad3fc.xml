@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>State = </description>
+        <order>1</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:59:50</sys_created_on>
+        <sys_id>fb83b3b2834803105587fa96feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_fb83b3b2834803105587fa96feaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 19:59:50</sys_updated_on>
+        <test display_value="Start Date is Mandatory When State is Reserved/Requested">35a1b7be830803105587fa96feaad3ef</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="DELETE" query="document_key=fb83b3b2834803105587fa96feaad3fc"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>fb83b3b2834803105587fa96feaad3fc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:59:50</sys_created_on>
+        <sys_id>2993f3b2834803105587fa96feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 19:59:50</sys_updated_on>
+        <value/>
+        <variable display_value="State">4892f332834803105587fa96feaad341</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_parameter_set_fb83b3b2834803105587fa96feaad3fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set"><sys_atf_parameter_set action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>State = </description><order>1</order><parameters/><sys_class_name>sys_atf_parameter_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-08 19:59:50</sys_created_on><sys_id>fb83b3b2834803105587fa96feaad3fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_parameter_set_fb83b3b2834803105587fa96feaad3fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-08 19:59:50</sys_updated_on><test display_value="Start Date is Mandatory When State is Reserved/Requested">35a1b7be830803105587fa96feaad3ef</test></sys_atf_parameter_set><sys_variable_value action="delete_multiple" query="document_key=fb83b3b2834803105587fa96feaad3fc"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_parameter_set</document><document_key>fb83b3b2834803105587fa96feaad3fc</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-08 19:59:50</sys_created_on><sys_id>2993f3b2834803105587fa96feaad306</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-08 19:59:50</sys_updated_on><value/><variable display_value="State">4892f332834803105587fa96feaad341</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1407919598</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:59:50</sys_created_on>
+        <sys_id>e19377b2834803105587fa96feaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d6eae02840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 19:59:50</sys_updated_on>
+        <type>Test Run Data Set</type>
+        <update_guid>a19377b26848031034dd43c77e95c645</update_guid>
+        <update_guid_history>a19377b26848031034dd43c77e95c645:-1407919598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 20:00:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_parameter_set">sys_atf_parameter_set</sys_db_object>
+        <sys_id>031b478c351f47378010054da86deaf1</sys_id>
+        <sys_metadata>fb83b3b2834803105587fa96feaad3fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_parameter_set_fb83b3b2834803105587fa96feaad3fc</sys_update_name>
+        <sys_update_version display_value="sys_atf_parameter_set_fb83b3b2834803105587fa96feaad3fc">e19377b2834803105587fa96feaad346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 20:00:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
