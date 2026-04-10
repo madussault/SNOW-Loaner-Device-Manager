@@ -4,7 +4,7 @@
         <callable_outputs/>
         <copied_from/>
         <description>Validate record from table 'x_1883746_loaner_0_loaner_request' matches the following condition:
-State = Returned
+State = Reserved
 With a failure timeout of 5 Seconds</description>
         <display_name>Record Validation</display_name>
         <inputs/>
@@ -15,127 +15,127 @@ With a failure timeout of 5 Seconds</description>
         <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>ca8ff05b834403105587fa96feaad368</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>55c46da7834883105587fa96feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Record Validation</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
-        <sys_update_name>sys_atf_step_ca8ff05b834403105587fa96feaad368</sys_update_name>
+        <sys_update_name>sys_atf_step_55c46da7834883105587fa96feaad306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:32:11</sys_updated_on>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
         <table>x_1883746_loaner_0_loaner_request</table>
-        <test display_value="Prevent State regression">5018349b830403105587fa96feaad338</test>
+        <test display_value="Admin can override State regression">2463ade3834883105587fa96feaad301</test>
         <timeout>1970-01-01 00:00:05</timeout>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=ca8ff05b834403105587fa96feaad368"/>
+    <sys_variable_value action="delete_multiple" query="document_key=55c46da7834883105587fa96feaad306"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>ca8ff05b834403105587fa96feaad368</document_key>
+        <document_key>55c46da7834883105587fa96feaad306</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>2c25e5e7834883105587fa96feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>55c46da7834883105587fa96feaad306</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>0cbf345b834403105587fa96feaad335</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>6025e5e7834883105587fa96feaad3df</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
         <value>x_1883746_loaner_0_loaner_request</value>
         <variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>ca8ff05b834403105587fa96feaad368</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>40bf345b834403105587fa96feaad336</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:32:11</sys_updated_on>
-        <value>state=15^EQ</value>
-        <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_atf_step</document>
-        <document_key>ca8ff05b834403105587fa96feaad368</document_key>
+        <document_key>55c46da7834883105587fa96feaad306</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>4cbf345b834403105587fa96feaad334</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>a025e5e7834883105587fa96feaad3de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
         <value>record_validated</value>
         <variable display_value="Assert type">67400008676003007ba405225685efa4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>ca8ff05b834403105587fa96feaad368</document_key>
-        <order>200</order>
+        <document_key>55c46da7834883105587fa96feaad306</document_key>
+        <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>80bf345b834403105587fa96feaad335</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>a425e5e7834883105587fa96feaad3df</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
-        <value/>
-        <variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
+        <value>state=11^EQ</value>
+        <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>ca8ff05b834403105587fa96feaad368</document_key>
-        <order>10</order>
+        <document_key>55c46da7834883105587fa96feaad306</document_key>
+        <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>c4bf345b834403105587fa96feaad335</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>e425e5e7834883105587fa96feaad3de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
-        <value>1</value>
-        <variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
+        <value/>
+        <variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ca8ff05b834403105587fa96feaad368"/>
+    <sys_element_mapping action="delete_multiple" query="id=55c46da7834883105587fa96feaad306"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>enforce_security</field>
-        <id>ca8ff05b834403105587fa96feaad368</id>
+        <id>55c46da7834883105587fa96feaad306</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>44bf345b834403105587fa96feaad334</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>a825e5e7834883105587fa96feaad3dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
         <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>field_values</field>
-        <id>ca8ff05b834403105587fa96feaad368</id>
+        <id>55c46da7834883105587fa96feaad306</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>88bf345b834403105587fa96feaad334</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>ec25e5e7834883105587fa96feaad3dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
         <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record_id</field>
-        <id>ca8ff05b834403105587fa96feaad368</id>
+        <id>55c46da7834883105587fa96feaad306</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-09 20:10:48</sys_created_on>
-        <sys_id>00bf345b834403105587fa96feaad334</sys_id>
+        <sys_created_on>2026-04-10 17:32:54</sys_created_on>
+        <sys_id>6425e5e7834883105587fa96feaad3dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 20:10:48</sys_updated_on>
+        <sys_updated_on>2026-04-10 17:32:54</sys_updated_on>
         <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
-        <value>{{step['d60af85f830403105587fa96feaad3ee'].record_id}}</value>
+        <value>{{step['0814e167834883105587fa96feaad362'].record_id}}</value>
     </sys_element_mapping>
 </record_update>
