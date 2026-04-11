@@ -4,27 +4,27 @@
         <callable_outputs/>
         <copied_from/>
         <description>Validate record from table 'x_1883746_loaner_0_loaner_request' matches the following condition:
-Loan a Device Asset tag = P1000479
+Loan a Device Asset tag = ATF-TEST-TAG-99
 With a failure timeout of 5 Seconds</description>
         <display_name>Record Validation</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>3</order>
+        <order>4</order>
         <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-10 19:09:36</sys_created_on>
         <sys_id>8f59b5a3830c83105587fa96feaad3f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Record Validation</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name>sys_atf_step_8f59b5a3830c83105587fa96feaad3f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-10 19:09:36</sys_updated_on>
+        <sys_updated_on>2026-04-11 21:18:14</sys_updated_on>
         <table>x_1883746_loaner_0_loaner_request</table>
         <test display_value="Asset Tag populates via dot-walking">7595b1eb83c883105587fa96feaad366</test>
         <timeout>1970-01-01 00:00:05</timeout>
@@ -67,10 +67,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-10 19:09:36</sys_created_on>
         <sys_id>594bf967830c83105587fa96feaad3e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-10 19:09:36</sys_updated_on>
-        <value>u_device.asset_tag=P1000479^EQ</value>
+        <sys_updated_on>2026-04-11 21:18:14</sys_updated_on>
+        <value>u_device.asset_tag=ATF-TEST-TAG-99^EQ</value>
         <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
