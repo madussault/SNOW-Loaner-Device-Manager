@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="DELETE">
+        <active>true</active>
+        <description>Verifies that all required fields are filled out and that protected fields cannot be edited before a record is saved to the database.</description>
+        <input_filter/>
+        <name>Data integrity</name>
+        <parent/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 19:14:24</sys_created_on>
+        <sys_id>7edee40d83c883105587fa96feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data integrity</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_7edee40d83c883105587fa96feaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:14:24</sys_updated_on>
+    </sys_atf_test_suite>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_suite_7edee40d83c883105587fa96feaad3de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite"><sys_atf_test_suite action="INSERT_OR_UPDATE"><active>true</active><description>Verifies that all required fields are filled out and that protected fields cannot be edited before a record is saved to the database.</description><input_filter/><name>Data integrity</name><parent/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test_suite</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-02 19:14:24</sys_created_on><sys_id>7edee40d83c883105587fa96feaad3de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Data integrity</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_suite_7edee40d83c883105587fa96feaad3de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-02 19:14:24</sys_updated_on></sys_atf_test_suite></record_update>]]></payload>
+        <payload_hash>-1392511722</payload_hash>
+        <record_name>Data integrity</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-02 19:14:24</sys_created_on>
+        <sys_id>a1af280d83c883105587fa96feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4f9e40d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-02 19:14:24</sys_updated_on>
+        <type>Test Suite</type>
+        <update_guid>61af280dcec88310cf9d986527058b8c</update_guid>
+        <update_guid_history>61af280dcec88310cf9d986527058b8c:-1392511722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:27:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite">sys_atf_test_suite</sys_db_object>
+        <sys_id>3d9b9801f20d439a95fe34492e0e0b04</sys_id>
+        <sys_metadata>7edee40d83c883105587fa96feaad3de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data integrity</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_7edee40d83c883105587fa96feaad3de</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_7edee40d83c883105587fa96feaad3de">a1af280d83c883105587fa96feaad38d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:27:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

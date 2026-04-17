@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Verifies that all required fields are filled out and that protected fields cannot be edited before a record is saved to the database.</description>
+        <description>Tests the static permissions associated with the Requester role. Dynamic permissions wil be put in other child suites.</description>
         <input_filter/>
-        <name>Data integrity</name>
-        <parent/>
+        <name>Requester Permissions</name>
+        <parent display_value="Security (ACLs)">fa390774831003105587fa96feaad39e</parent>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test_suite</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-02 19:14:24</sys_created_on>
-        <sys_id>7edee40d83c883105587fa96feaad3de</sys_id>
+        <sys_created_on>2026-04-14 22:19:56</sys_created_on>
+        <sys_id>668c4b70835003105587fa96feaad37d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Data integrity</sys_name>
+        <sys_name>Requester Permissions</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
-        <sys_update_name>sys_atf_test_suite_7edee40d83c883105587fa96feaad3de</sys_update_name>
+        <sys_update_name>sys_atf_test_suite_668c4b70835003105587fa96feaad37d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-02 19:14:24</sys_updated_on>
+        <sys_updated_on>2026-04-14 22:19:56</sys_updated_on>
     </sys_atf_test_suite>
 </record_update>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Record Insert">e8a19f3c835003105587fa96feaad3cc</copied_from>
+        <description>Insert a record into 'x_1883746_loaner_0_loaner_request' with the following values:
+Requested For = Krystle Stika
+and Start Date = 2026-04-15 00:00:00
+and End Date = 2026-04-30 00:00:00
+and Loan a Device = P1000479 - Apple MacBook Pro 15"
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>To be capable to do the insert we had to uncheck "enforce security" or else the requester would not have been capable to insert the record choosing an other requester than himself.</notes>
+        <order>3</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:29:37</sys_created_on>
+        <sys_id>3069f0e583d003105587fa96feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_3069f0e583d003105587fa96feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:29:37</sys_updated_on>
+        <table>x_1883746_loaner_0_loaner_request</table>
+        <test display_value="Requester can read OWN loans copy">fc693c2d839003105587fa96feaad34b</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=3069f0e583d003105587fa96feaad362"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3069f0e583d003105587fa96feaad362</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:29:37</sys_created_on>
+        <sys_id>3869f0e583d003105587fa96feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:29:37</sys_updated_on>
+        <value>u_requested_for=02826bf03710200044e0bfc8bcbe5d7f^u_start_date=2026-04-15 00:00:00^u_end_date=2026-04-30 00:00:00^u_device=00a96c0d3790200044e0bfc8bcbe5dc3^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3069f0e583d003105587fa96feaad362</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:29:37</sys_created_on>
+        <sys_id>7869f0e583d003105587fa96feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:29:37</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3069f0e583d003105587fa96feaad362</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:29:37</sys_created_on>
+        <sys_id>bc69f0e583d003105587fa96feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:29:37</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3069f0e583d003105587fa96feaad362</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:29:37</sys_created_on>
+        <sys_id>f069f0e583d003105587fa96feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:29:37</sys_updated_on>
+        <value>x_1883746_loaner_0_loaner_request</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=3069f0e583d003105587fa96feaad362"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_3069f0e583d003105587fa96feaad362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Record Insert">e8a19f3c835003105587fa96feaad3cc</copied_from><description>Insert a record into 'x_1883746_loaner_0_loaner_request' with the following values:
+Requested For = Krystle Stika
+and Start Date = 2026-04-15 00:00:00
+and End Date = 2026-04-30 00:00:00
+and Loan a Device = P1000479 - Apple MacBook Pro 15"
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><mugshots_cache_json/><notes>To be capable to do the insert we had to uncheck "enforce security" or else the requester would not have been capable to insert the record choosing an other requester than himself.</notes><order>3</order><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 19:29:37</sys_created_on><sys_id>3069f0e583d003105587fa96feaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_3069f0e583d003105587fa96feaad362</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 19:29:37</sys_updated_on><table>x_1883746_loaner_0_loaner_request</table><test display_value="Requester can read OWN loans copy">fc693c2d839003105587fa96feaad34b</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=3069f0e583d003105587fa96feaad362"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3069f0e583d003105587fa96feaad362</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 19:29:37</sys_created_on><sys_id>3869f0e583d003105587fa96feaad364</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 19:29:37</sys_updated_on><value>u_requested_for=02826bf03710200044e0bfc8bcbe5d7f^u_start_date=2026-04-15 00:00:00^u_end_date=2026-04-30 00:00:00^u_device=00a96c0d3790200044e0bfc8bcbe5dc3^EQ</value><variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3069f0e583d003105587fa96feaad362</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 19:29:37</sys_created_on><sys_id>7869f0e583d003105587fa96feaad363</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 19:29:37</sys_updated_on><value>record_successfully_inserted</value><variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3069f0e583d003105587fa96feaad362</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 19:29:37</sys_created_on><sys_id>bc69f0e583d003105587fa96feaad363</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 19:29:37</sys_updated_on><value>0</value><variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3069f0e583d003105587fa96feaad362</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 19:29:37</sys_created_on><sys_id>f069f0e583d003105587fa96feaad364</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 19:29:37</sys_updated_on><value>x_1883746_loaner_0_loaner_request</value><variable display_value="Table">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=3069f0e583d003105587fa96feaad362"/></record_update>]]></payload>
+        <payload_hash>-309269194</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:29:37</sys_created_on>
+        <sys_id>fc69f0e583d003105587fa96feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d97c536d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:29:37</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>bc69f0e5fdd00310c116a4f172fd5266</update_guid>
+        <update_guid_history>bc69f0e5fdd00310c116a4f172fd5266:-309269194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 19:30:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1088d76b2bbf41108d2e41aa98efdee4</sys_id>
+        <sys_metadata>3069f0e583d003105587fa96feaad362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_3069f0e583d003105587fa96feaad362</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_3069f0e583d003105587fa96feaad362">fc69f0e583d003105587fa96feaad367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 19:30:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

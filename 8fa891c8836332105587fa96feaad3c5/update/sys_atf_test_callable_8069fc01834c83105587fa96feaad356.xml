@@ -6,7 +6,7 @@
         <description>Insert new "loaner request" record</description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
         <fail_on_server_error>false</fail_on_server_error>
-        <name>Custom: Insert new "loaner request" record</name>
+        <name>Custom: Insert loan request as Requester</name>
         <parameters/>
         <remember/>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-02 19:58:04</sys_created_on>
         <sys_id>8069fc01834c83105587fa96feaad356</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Custom: Insert new "loaner request" record</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Custom: Insert loan request as Requester</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name>sys_atf_test_callable_8069fc01834c83105587fa96feaad356</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-02 20:05:00</sys_updated_on>
+        <sys_updated_on>2026-04-16 20:02:05</sys_updated_on>
         <test_origin>manual</test_origin>
     </sys_atf_test_callable>
     <sys_variable_value action="delete_multiple" query="document_key=8069fc01834c83105587fa96feaad356"/>

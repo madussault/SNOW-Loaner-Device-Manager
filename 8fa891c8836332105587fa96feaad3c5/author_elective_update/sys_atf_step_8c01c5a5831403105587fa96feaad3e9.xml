@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Insert a record into 'x_1883746_loaner_0_loaner_request' with the following values:
+Loan a Device = P1000479 - Apple MacBook Pro 15"
+and Start Date = 2026-04-17 00:00:00
+and End Date = 2026-04-30 00:00:00
+and Requested For = {{Step 1: Create a User.User}}
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>8c01c5a5831403105587fa96feaad3e9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_8c01c5a5831403105587fa96feaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:40:46</sys_updated_on>
+        <table>x_1883746_loaner_0_loaner_request</table>
+        <test display_value="Requester can create a Loaner Request">c74c746d83d003105587fa96feaad383</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=8c01c5a5831403105587fa96feaad3e9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8c01c5a5831403105587fa96feaad3e9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>344101e5831403105587fa96feaad3f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:24:36</sys_updated_on>
+        <value>u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-17 00:00:00^u_end_date=2026-04-30 00:00:00^u_requested_for={{step['9fc58961835403105587fa96feaad3d8'].user}}^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8c01c5a5831403105587fa96feaad3e9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>744101e5831403105587fa96feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:04:01</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8c01c5a5831403105587fa96feaad3e9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>b84101e5831403105587fa96feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:04:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8c01c5a5831403105587fa96feaad3e9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>fc4101e5831403105587fa96feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:04:01</sys_updated_on>
+        <value>x_1883746_loaner_0_loaner_request</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8c01c5a5831403105587fa96feaad3e9"/>
+    <sys_element_mapping action="DELETE">
+        <field>enforce_security</field>
+        <id>8c01c5a5831403105587fa96feaad3e9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>7c4101e5831403105587fa96feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:04:01</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>8c01c5a5831403105587fa96feaad3e9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:04:01</sys_created_on>
+        <sys_id>b04101e5831403105587fa96feaad3f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:24:36</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-17 00:00:00^u_end_date=2026-04-30 00:00:00^u_requested_for={{step['9fc58961835403105587fa96feaad3d8'].user}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_8c01c5a5831403105587fa96feaad3e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Insert a record into 'x_1883746_loaner_0_loaner_request' with the following values:
+Loan a Device = P1000479 - Apple MacBook Pro 15"
+and Start Date = 2026-04-17 00:00:00
+and End Date = 2026-04-30 00:00:00
+and Requested For = {{Step 1: Create a User.User}}
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>8c01c5a5831403105587fa96feaad3e9</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_8c01c5a5831403105587fa96feaad3e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:40:46</sys_updated_on><table>x_1883746_loaner_0_loaner_request</table><test display_value="Requester can create a Loaner Request">c74c746d83d003105587fa96feaad383</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=8c01c5a5831403105587fa96feaad3e9"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8c01c5a5831403105587fa96feaad3e9</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>344101e5831403105587fa96feaad3f1</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:24:36</sys_updated_on><value>u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-17 00:00:00^u_end_date=2026-04-30 00:00:00^u_requested_for={{step['9fc58961835403105587fa96feaad3d8'].user}}^EQ</value><variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8c01c5a5831403105587fa96feaad3e9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>744101e5831403105587fa96feaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:04:01</sys_updated_on><value>record_successfully_inserted</value><variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8c01c5a5831403105587fa96feaad3e9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>b84101e5831403105587fa96feaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:04:01</sys_updated_on><value>1</value><variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8c01c5a5831403105587fa96feaad3e9</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>fc4101e5831403105587fa96feaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:04:01</sys_updated_on><value>x_1883746_loaner_0_loaner_request</value><variable display_value="Table">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=8c01c5a5831403105587fa96feaad3e9"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>enforce_security</field><id>8c01c5a5831403105587fa96feaad3e9</id><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>7c4101e5831403105587fa96feaad3ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:04:01</sys_updated_on><table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>8c01c5a5831403105587fa96feaad3e9</id><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:04:01</sys_created_on><sys_id>b04101e5831403105587fa96feaad3f0</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:24:36</sys_updated_on><table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table><value>u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-17 00:00:00^u_end_date=2026-04-30 00:00:00^u_requested_for={{step['9fc58961835403105587fa96feaad3d8'].user}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>2140611310</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:40:46</sys_created_on>
+        <sys_id>c7a941a9835403105587fa96feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d9806599b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:40:46</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>07a941a9ad540310fc6e740663aad475</update_guid>
+        <update_guid_history>07a941a9ad540310fc6e740663aad475:2140611310,def541a129540310beeeaaa1c1fd6842:1580547597,91e58d61fb540310bb03d537f01bc857:-1374185645,5de58d61a2540310653a20aadfbb0539:2122056628,3a650d21045403106a8fffc76e6b25f9:1994747989,8015012146540310e19e1b8e6c8a03aa:1083864958,f042c969a5140310fa6aeef763c30acb:-1577585089,b04101e5d4140310421027e2036c00f4:1083864958</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:41:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>36c738c609994d879aac626bd79c8971</sys_id>
+        <sys_metadata>8c01c5a5831403105587fa96feaad3e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_8c01c5a5831403105587fa96feaad3e9</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_8c01c5a5831403105587fa96feaad3e9">c7a941a9835403105587fa96feaad376</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:41:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
