@@ -4,18 +4,12 @@
         <callable_outputs/>
         <copied_from display_value="Record Insert">baee03c6835447105587fa96feaad326</copied_from>
         <description>Insert a record into 'x_1883746_loaner_0_loaner_request' with the following values:
-Requested For = {{Step 1: Create a User.User}}
+Requested For = survey user
 and Loan a Device = P1000479 - Apple MacBook Pro 15"
 and Start Date = 2026-04-19 00:00:00
 and End Date = 2026-04-30 00:00:00
-and Short description = 9999
-and State = Requested
-and Approval = Requested
-and Assigned to = survey user
-and Work notes = 8888
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
-        <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
@@ -25,14 +19,14 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-18 19:43:12</sys_created_on>
         <sys_id>9faf4b0a835447105587fa96feaad335</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name>sys_atf_step_9faf4b0a835447105587fa96feaad335</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-18 19:43:12</sys_updated_on>
+        <sys_updated_on>2026-04-19 20:16:34</sys_updated_on>
         <table>x_1883746_loaner_0_loaner_request</table>
         <test display_value="Admin + record insert - Loaner Template">dbaf0b0a835447105587fa96feaad374</test>
         <timeout/>
@@ -61,10 +55,10 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-18 19:43:12</sys_created_on>
         <sys_id>5baf4b0a835447105587fa96feaad339</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-18 19:43:12</sys_updated_on>
-        <value>u_requested_for={{step['97af4b0a835447105587fa96feaad31d'].user}}^u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-19 00:00:00^u_end_date=2026-04-30 00:00:00^short_description=9999^state=10^approval=requested^assigned_to=005d500b536073005e0addeeff7b12f4^work_notes=8888^EQ</value>
+        <sys_updated_on>2026-04-19 20:16:34</sys_updated_on>
+        <value>u_requested_for=005d500b536073005e0addeeff7b12f4^u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-19 00:00:00^u_end_date=2026-04-30 00:00:00^EQ</value>
         <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -95,17 +89,5 @@ Confirm the record was successfully inserted</description>
         <value>1</value>
         <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9faf4b0a835447105587fa96feaad335"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>9faf4b0a835447105587fa96feaad335</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-18 19:43:12</sys_created_on>
-        <sys_id>13af4b0a835447105587fa96feaad33a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-18 19:43:12</sys_updated_on>
-        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
-        <value>u_requested_for={{step['97af4b0a835447105587fa96feaad31d'].user}}^u_device=00a96c0d3790200044e0bfc8bcbe5dc3^u_start_date=2026-04-19 00:00:00^u_end_date=2026-04-30 00:00:00^short_description=9999^state=10^approval=requested^assigned_to=005d500b536073005e0addeeff7b12f4^work_notes=8888^EQ</value>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=9faf4b0a835447105587fa96feaad335"/>
 </record_update>
