@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>1300</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 20:45:31</sys_created_on>
+        <sys_id>2dcddb4683d447105587fa96feaad3ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>01b8d7ca839447105587fa96feaad31a</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_2dcddb4683d447105587fa96feaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 20:45:46</sys_updated_on>
+        <test display_value="Requester allowed Create fields">01b8d7ca839447105587fa96feaad31a</test>
+        <test_suite display_value="Requester Permissions">668c4b70835003105587fa96feaad37d</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_suite_test_2dcddb4683d447105587fa96feaad3ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order>1300</order><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 20:45:31</sys_created_on><sys_id>2dcddb4683d447105587fa96feaad3ca</sys_id><sys_mod_count>1</sys_mod_count><sys_name>01b8d7ca839447105587fa96feaad31a</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_suite_test_2dcddb4683d447105587fa96feaad3ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 20:45:46</sys_updated_on><test display_value="Requester allowed Create fields">01b8d7ca839447105587fa96feaad31a</test><test_suite display_value="Requester Permissions">668c4b70835003105587fa96feaad37d</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>-239207272</payload_hash>
+        <record_name>01b8d7ca839447105587fa96feaad31a</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 20:45:46</sys_created_on>
+        <sys_id>b3fdd38683d447105587fa96feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19da257a7710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 20:45:46</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>fffd5386a1d44710afa253c2b9113f08</update_guid>
+        <update_guid_history>fffd5386a1d44710afa253c2b9113f08:-239207272,08fd138623d447101d22441f61cbc4fe:-405457086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 21:36:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>69b74d40029942a69959395e39056ad1</sys_id>
+        <sys_metadata>2dcddb4683d447105587fa96feaad3ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>01b8d7ca839447105587fa96feaad31a</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_2dcddb4683d447105587fa96feaad3ca</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_2dcddb4683d447105587fa96feaad3ca">b3fdd38683d447105587fa96feaad35f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 21:36:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

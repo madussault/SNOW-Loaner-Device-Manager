@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>150</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-19 18:38:28</sys_created_on>
+        <sys_id>cbf58c2a83d8c7105587fa96feaad365</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3519c422831cc7105587fa96feaad3b9</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_cbf58c2a83d8c7105587fa96feaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-19 18:38:33</sys_updated_on>
+        <test display_value="Requester can update own Loan Requests">3519c422831cc7105587fa96feaad3b9</test>
+        <test_suite display_value="Requester Permissions">668c4b70835003105587fa96feaad37d</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

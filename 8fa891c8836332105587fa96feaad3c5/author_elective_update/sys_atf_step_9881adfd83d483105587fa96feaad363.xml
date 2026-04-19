@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate record from table 'x_1883746_loaner_0_loaner_request' matches the following condition:
+Assigned to != survey user
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:22</sys_created_on>
+        <sys_id>9881adfd83d483105587fa96feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_9881adfd83d483105587fa96feaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:22</sys_updated_on>
+        <table>x_1883746_loaner_0_loaner_request</table>
+        <test display_value="Requester cannot write to assigned_to">5daf4979835483105587fa96feaad301</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=9881adfd83d483105587fa96feaad363"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9881adfd83d483105587fa96feaad363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>1444e575831883105587fa96feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <value>x_1883746_loaner_0_loaner_request</value>
+        <variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9881adfd83d483105587fa96feaad363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>5444e575831883105587fa96feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="Assert type">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9881adfd83d483105587fa96feaad363</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>5844e575831883105587fa96feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <value>assigned_to!=005d500b536073005e0addeeff7b12f4^EQ</value>
+        <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9881adfd83d483105587fa96feaad363</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>9844e575831883105587fa96feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <value/>
+        <variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9881adfd83d483105587fa96feaad363</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>dc44e575831883105587fa96feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=9881adfd83d483105587fa96feaad363"/>
+    <sys_element_mapping action="DELETE">
+        <field>enforce_security</field>
+        <id>9881adfd83d483105587fa96feaad363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>5c44e575831883105587fa96feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>9881adfd83d483105587fa96feaad363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>9044e575831883105587fa96feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>9881adfd83d483105587fa96feaad363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:22</sys_created_on>
+        <sys_id>1844e575831883105587fa96feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:22</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['8f11d93d835483105587fa96feaad37a'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_9881adfd83d483105587fa96feaad363</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Validate record from table 'x_1883746_loaner_0_loaner_request' matches the following condition:
+Assigned to != survey user
+With a failure timeout of 5 Seconds</description><display_name>Record Validation</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>4</order><step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:22</sys_created_on><sys_id>9881adfd83d483105587fa96feaad363</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record Validation</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_9881adfd83d483105587fa96feaad363</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:22</sys_updated_on><table>x_1883746_loaner_0_loaner_request</table><test display_value="Requester cannot write to assigned_to">5daf4979835483105587fa96feaad301</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=9881adfd83d483105587fa96feaad363"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9881adfd83d483105587fa96feaad363</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>1444e575831883105587fa96feaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><value>x_1883746_loaner_0_loaner_request</value><variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9881adfd83d483105587fa96feaad363</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>5444e575831883105587fa96feaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><value>record_validated</value><variable display_value="Assert type">67400008676003007ba405225685efa4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9881adfd83d483105587fa96feaad363</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>5844e575831883105587fa96feaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><value>assigned_to!=005d500b536073005e0addeeff7b12f4^EQ</value><variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9881adfd83d483105587fa96feaad363</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>9844e575831883105587fa96feaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><value/><variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9881adfd83d483105587fa96feaad363</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>dc44e575831883105587fa96feaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><value>0</value><variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=9881adfd83d483105587fa96feaad363"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>enforce_security</field><id>9881adfd83d483105587fa96feaad363</id><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>5c44e575831883105587fa96feaad34b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>9881adfd83d483105587fa96feaad363</id><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:23</sys_created_on><sys_id>9044e575831883105587fa96feaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:23</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>9881adfd83d483105587fa96feaad363</id><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 17:15:22</sys_created_on><sys_id>1844e575831883105587fa96feaad34b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 17:15:22</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>{{step['8f11d93d835483105587fa96feaad37a'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-773201262</payload_hash>
+        <record_name>Record Validation</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 17:15:23</sys_created_on>
+        <sys_id>1c44e575831883105587fa96feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d9c70ac710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 17:15:23</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>d844e575c118831040772fd3f61007b4</update_guid>
+        <update_guid_history>d844e575c118831040772fd3f61007b4:-773201262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 21:22:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>15a5cae5337a4460b77182a08e4aa100</sys_id>
+        <sys_metadata>9881adfd83d483105587fa96feaad363</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_9881adfd83d483105587fa96feaad363</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_9881adfd83d483105587fa96feaad363">1c44e575831883105587fa96feaad3b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 21:22:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
