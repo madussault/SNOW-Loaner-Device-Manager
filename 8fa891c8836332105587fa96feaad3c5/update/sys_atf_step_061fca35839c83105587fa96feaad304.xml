@@ -4,9 +4,9 @@
         <callable_outputs/>
         <copied_from display_value="Create a User">7725e809838883105587fa96feaad376</copied_from>
         <description>Create and impersonate user with the following values:
-First name = john
-and Last name = requester
-With roles: x_1883746_loaner_0.requester</description>
+First name = Alex
+and Last name = Admin
+With roles: x_1883746_loaner_0.admin</description>
         <display_name>Create a User</display_name>
         <inputs/>
         <mugshots_cache_json/>
@@ -17,14 +17,14 @@ With roles: x_1883746_loaner_0.requester</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-17 20:22:33</sys_created_on>
         <sys_id>061fca35839c83105587fa96feaad304</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Create a User</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name>sys_atf_step_061fca35839c83105587fa96feaad304</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-17 20:22:33</sys_updated_on>
+        <sys_updated_on>2026-04-22 16:51:54</sys_updated_on>
         <table>sys_user</table>
         <test display_value="Custom: Create Loaner Admin">861f0a35839c83105587fa96feaad375</test>
         <timeout/>
@@ -39,10 +39,10 @@ With roles: x_1883746_loaner_0.requester</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-17 20:22:33</sys_created_on>
         <sys_id>021fca35839c83105587fa96feaad307</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-17 20:22:33</sys_updated_on>
-        <value>requester</value>
+        <sys_updated_on>2026-04-22 16:51:54</sys_updated_on>
+        <value>Admin</value>
         <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -95,10 +95,10 @@ With roles: x_1883746_loaner_0.requester</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-17 20:22:33</sys_created_on>
         <sys_id>8a1fca35839c83105587fa96feaad307</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-17 20:22:33</sys_updated_on>
-        <value>john</value>
+        <sys_updated_on>2026-04-22 16:51:54</sys_updated_on>
+        <value>Alex</value>
         <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -109,10 +109,10 @@ With roles: x_1883746_loaner_0.requester</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-17 20:22:33</sys_created_on>
         <sys_id>ca1fca35839c83105587fa96feaad306</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-17 20:22:33</sys_updated_on>
-        <value>1ba8d1c8836332105587fa96feaad349</value>
+        <sys_updated_on>2026-04-22 16:51:54</sys_updated_on>
+        <value>07a8d1c8836332105587fa96feaad341</value>
         <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

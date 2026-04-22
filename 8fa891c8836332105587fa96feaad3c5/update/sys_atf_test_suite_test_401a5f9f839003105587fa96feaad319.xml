@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>1400</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 17:42:34</sys_created_on>
+        <sys_id>401a5f9f839003105587fa96feaad319</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>395a5b5b83d003105587fa96feaad3fa</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_401a5f9f839003105587fa96feaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 17:42:38</sys_updated_on>
+        <test display_value="Admin CRUD field permissions: End Date">395a5b5b83d003105587fa96feaad3fa</test>
+        <test_suite display_value="Admin Permissions">503a0f13835003105587fa96feaad31e</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

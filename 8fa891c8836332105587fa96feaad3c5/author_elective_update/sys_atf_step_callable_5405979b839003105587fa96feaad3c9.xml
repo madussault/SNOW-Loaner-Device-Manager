@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_callable">
+    <sys_atf_step_callable action="DELETE">
+        <active>true</active>
+        <callable_inputs/>
+        <callable_outputs/>
+        <callable_test display_value="Custom: Create Loaner Fulfiller">274c4abd835c83105587fa96feaad3f2</callable_test>
+        <copied_from display_value="Execute Test: Custom: Create Loaner Fulfiller">94715466835cc7105587fa96feaad3b4</copied_from>
+        <description>Creates a test user with the fulfiller role.</description>
+        <display_name>Execute Test: Custom: Create Loaner Fulfiller</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config/>
+        <sys_class_name>sys_atf_step_callable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 17:18:52</sys_created_on>
+        <sys_id>5405979b839003105587fa96feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute Test: Custom: Create Loaner Fulfiller</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_callable_5405979b839003105587fa96feaad3c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 17:18:52</sys_updated_on>
+        <table/>
+        <test display_value="Fulfiller CRUD field permissions: Assigned To copy">d005579b839003105587fa96feaad3fc</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step_callable>
+    <sys_variable_value action="DELETE" query="document_key=5405979b839003105587fa96feaad3c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_callable_5405979b839003105587fa96feaad3c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_callable"><sys_atf_step_callable action="INSERT_OR_UPDATE"><active>true</active><callable_inputs/><callable_outputs/><callable_test display_value="Custom: Create Loaner Fulfiller">274c4abd835c83105587fa96feaad3f2</callable_test><copied_from display_value="Execute Test: Custom: Create Loaner Fulfiller">94715466835cc7105587fa96feaad3b4</copied_from><description>Creates a test user with the fulfiller role.</description><display_name>Execute Test: Custom: Create Loaner Fulfiller</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config/><sys_class_name>sys_atf_step_callable</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-22 17:18:52</sys_created_on><sys_id>5405979b839003105587fa96feaad3c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Execute Test: Custom: Create Loaner Fulfiller</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_callable_5405979b839003105587fa96feaad3c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-22 17:18:52</sys_updated_on><table/><test display_value="Fulfiller CRUD field permissions: Assigned To copy">d005579b839003105587fa96feaad3fc</test><timeout/><warning_message/></sys_atf_step_callable><sys_variable_value action="delete_multiple" query="document_key=5405979b839003105587fa96feaad3c9"/></record_update>]]></payload>
+        <payload_hash>-1289614282</payload_hash>
+        <record_name>Execute Test: Custom: Create Loaner Fulfiller</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 17:18:52</sys_created_on>
+        <sys_id>1405979b839003105587fa96feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19db633ab3c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 17:18:52</sys_updated_on>
+        <type>Reusable Test Step</type>
+        <update_guid>d005979be8900310807d81784eb081cd</update_guid>
+        <update_guid_history>d005979be8900310807d81784eb081cd:-1289614282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 17:20:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step_callable">sys_atf_step_callable</sys_db_object>
+        <sys_id>0d05798eba6248c8bd3bc19326fd9e84</sys_id>
+        <sys_metadata>5405979b839003105587fa96feaad3c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute Test: Custom: Create Loaner Fulfiller</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_callable_5405979b839003105587fa96feaad3c9</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_callable_5405979b839003105587fa96feaad3c9">1405979b839003105587fa96feaad3ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 17:20:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
