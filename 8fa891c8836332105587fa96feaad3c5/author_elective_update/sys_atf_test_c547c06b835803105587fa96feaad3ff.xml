@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Requester sees correct app menu items">c316cca7835803105587fa96feaad31a</copied_from>
+        <description>Requester only sees menu items permitted for his role.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Requester sees correct app menu items copy</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 20:58:28</sys_created_on>
+        <sys_id>c547c06b835803105587fa96feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requester sees correct app menu items copy</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_c547c06b835803105587fa96feaad3ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 20:58:28</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=c547c06b835803105587fa96feaad3ff"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_c547c06b835803105587fa96feaad3ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Requester sees correct app menu items">c316cca7835803105587fa96feaad31a</copied_from><description>Requester only sees menu items permitted for his role.</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Requester sees correct app menu items copy</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-22 20:58:28</sys_created_on><sys_id>c547c06b835803105587fa96feaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requester sees correct app menu items copy</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_c547c06b835803105587fa96feaad3ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-22 20:58:28</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=c547c06b835803105587fa96feaad3ff"/></record_update>]]></payload>
+        <payload_hash>1404274450</payload_hash>
+        <record_name>Requester sees correct app menu items copy</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 20:58:28</sys_created_on>
+        <sys_id>8547046b835803105587fa96feaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19db6fcb7390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 20:58:28</sys_updated_on>
+        <type>Test</type>
+        <update_guid>4547046be558031043f95103d1a63e03</update_guid>
+        <update_guid_history>4547046be558031043f95103d1a63e03:1404274450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 20:59:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>2a657ca80ce34787ae13203ad3a1d6c1</sys_id>
+        <sys_metadata>c547c06b835803105587fa96feaad3ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requester sees correct app menu items copy</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_c547c06b835803105587fa96feaad3ff</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_c547c06b835803105587fa96feaad3ff">8547046b835803105587fa96feaad304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 20:59:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

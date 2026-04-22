@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Confirm that at least the following application menus are visible in Next Experience UI: Loaner Device Manager</description>
+        <display_name>Application Menu Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Application Menu Visibility">6228cf753752030064a52f3c8e41f1a8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 21:18:18</sys_created_on>
+        <sys_id>fccbcca7839803105587fa96feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Menu Visibility</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_fccbcca7839803105587fa96feaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 21:18:18</sys_updated_on>
+        <table/>
+        <test display_value="Fulfiller can see the app menu">ad9bc4a7839803105587fa96feaad3be</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=fccbcca7839803105587fa96feaad35b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fccbcca7839803105587fa96feaad35b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 21:18:18</sys_created_on>
+        <sys_id>2fcb40e7839803105587fa96feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 21:18:18</sys_updated_on>
+        <value>at_least_applications_not_visible</value>
+        <variable display_value="Not visible assert type">abc1e03573220300c79260bdfaf6a7f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fccbcca7839803105587fa96feaad35b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 21:18:18</sys_created_on>
+        <sys_id>63cb40e7839803105587fa96feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 21:18:18</sys_updated_on>
+        <value>polaris</value>
+        <variable display_value="Navigator">e26225ab73f22010ac1560bdfaf6a7e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fccbcca7839803105587fa96feaad35b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 21:18:18</sys_created_on>
+        <sys_id>6fcb40e7839803105587fa96feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 21:18:18</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible application menus">1b52683573220300c79260bdfaf6a763</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fccbcca7839803105587fa96feaad35b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 21:18:18</sys_created_on>
+        <sys_id>a3cb40e7839803105587fa96feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 21:18:18</sys_updated_on>
+        <value>193f150883a332105587fa96feaad3d1</value>
+        <variable display_value="Visible application menus">e9994bb53752030064a52f3c8e41f1a9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fccbcca7839803105587fa96feaad35b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 21:18:18</sys_created_on>
+        <sys_id>e7cb40e7839803105587fa96feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 21:18:18</sys_updated_on>
+        <value>at_least_applications_visible</value>
+        <variable display_value="Visible assert type">746a8fb53752030064a52f3c8e41f14c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_6228cf753752030064a52f3c8e41f1a8^id=fccbcca7839803105587fa96feaad35b"/>
+</record_update>
