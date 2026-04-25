@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Work Notes is not visible to Requesters">3f68e0bb839c83105587fa96feaad3bb</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Work Notes is visible to Fulfillers</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 17:24:52</sys_created_on>
+        <sys_id>11233ad883a003105587fa96feaad385</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Work Notes is visible to Fulfillers</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_11233ad883a003105587fa96feaad385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:25:53</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=11233ad883a003105587fa96feaad385"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_11233ad883a003105587fa96feaad385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Work Notes is not visible to Requesters">3f68e0bb839c83105587fa96feaad3bb</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Work Notes is visible to Fulfillers</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-25 17:24:52</sys_created_on><sys_id>11233ad883a003105587fa96feaad385</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Work Notes is visible to Fulfillers</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_11233ad883a003105587fa96feaad385</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-25 17:25:53</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=11233ad883a003105587fa96feaad385"/></record_update>]]></payload>
+        <payload_hash>-1196172839</payload_hash>
+        <record_name>Work Notes is visible to Fulfillers</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 17:25:54</sys_created_on>
+        <sys_id>dc63721c83a003105587fa96feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dc5ad2d0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:25:54</sys_updated_on>
+        <type>Test</type>
+        <update_guid>1c63721c91a003103acd19b298db36d7</update_guid>
+        <update_guid_history>1c63721c91a003103acd19b298db36d7:-1196172839,8e33fad830a00310377b8cad64d1c8f7:-1771276901,11233ad863a0031087ab53c79883508a:1227412022</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 17:28:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>0b8b824e9f2542f680b6289cc32130b1</sys_id>
+        <sys_metadata>11233ad883a003105587fa96feaad385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work Notes is visible to Fulfillers</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_11233ad883a003105587fa96feaad385</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_11233ad883a003105587fa96feaad385">dc63721c83a003105587fa96feaad3d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:28:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

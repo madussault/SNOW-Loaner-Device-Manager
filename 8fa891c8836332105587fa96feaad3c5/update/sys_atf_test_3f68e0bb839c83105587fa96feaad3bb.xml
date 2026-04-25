@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="All fields from Notes &amp; Details section render">34b1a0bb835c83105587fa96feaad322</copied_from>
+        <description>The requesters do not have the Read ACL permission to that field. This is the reason why the field does not appear on the form.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Work Notes is not visible to Requesters</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 18:01:52</sys_created_on>
+        <sys_id>3f68e0bb839c83105587fa96feaad3bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Work Notes is not visible to Requesters</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_3f68e0bb839c83105587fa96feaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:24:48</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=3f68e0bb839c83105587fa96feaad3bb"/>
+</record_update>

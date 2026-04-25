@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Requester cannot write to Work Notes">56c70579831483105587fa96feaad34f</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Requester cannot read Work Notes</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 16:58:10</sys_created_on>
+        <sys_id>560de29c836003105587fa96feaad3a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Requester cannot read Work Notes</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_560de29c836003105587fa96feaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:01:46</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=560de29c836003105587fa96feaad3a3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_560de29c836003105587fa96feaad3a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Requester cannot write to Work Notes">56c70579831483105587fa96feaad34f</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Requester cannot read Work Notes</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-25 16:58:10</sys_created_on><sys_id>560de29c836003105587fa96feaad3a3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Requester cannot read Work Notes</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_560de29c836003105587fa96feaad3a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-25 17:01:46</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=560de29c836003105587fa96feaad3a3"/></record_update>]]></payload>
+        <payload_hash>-1559918784</payload_hash>
+        <record_name>Requester cannot read Work Notes</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 17:01:46</sys_created_on>
+        <sys_id>87dd661083a003105587fa96feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dc59717430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:01:46</sys_updated_on>
+        <type>Test</type>
+        <update_guid>c3dd661071a003109e0ba921b155dd6d</update_guid>
+        <update_guid_history>c3dd661071a003109e0ba921b155dd6d:-1559918784,951da69c8c6003106457f274fc0a0623:-45593447,960d269c3f600310766c316006b09149:1671212289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 17:13:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>4c8ab4d0c9634766ab15256b8e262f71</sys_id>
+        <sys_metadata>560de29c836003105587fa96feaad3a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requester cannot read Work Notes</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_560de29c836003105587fa96feaad3a3</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_560de29c836003105587fa96feaad3a3">87dd661083a003105587fa96feaad36e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 17:13:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

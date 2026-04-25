@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+Assigned to = Lucius Bagnoli
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:58:45</sys_created_on>
+        <sys_id>83e910f7831c83105587fa96feaad381</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_83e910f7831c83105587fa96feaad381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 17:45:54</sys_updated_on>
+        <table>x_1883746_loaner_0_loaner_request</table>
+        <test display_value="All fields from Request Details section render">97365cff83d883105587fa96feaad3fc</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=83e910f7831c83105587fa96feaad381"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>83e910f7831c83105587fa96feaad381</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:58:45</sys_created_on>
+        <sys_id>93f9d0f7831c83105587fa96feaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 16:58:45</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>83e910f7831c83105587fa96feaad381</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:58:45</sys_created_on>
+        <sys_id>97f914f7831c83105587fa96feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 16:58:45</sys_updated_on>
+        <value>assigned_to=02826bf03710200044e0bfc8bcbe5d3f^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>83e910f7831c83105587fa96feaad381</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:58:45</sys_created_on>
+        <sys_id>dbf914f7831c83105587fa96feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 16:58:45</sys_updated_on>
+        <value>x_1883746_loaner_0_loaner_request</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=83e910f7831c83105587fa96feaad381"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_83e910f7831c83105587fa96feaad381</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Validate that the form matches the following condition:
+Assigned to = Lucius Bagnoli
+With a failure timeout of 5 Seconds</description><display_name>Field Values Validation</display_name><inputs/><mugshots_cache_json/><notes/><order>5</order><step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-23 16:58:45</sys_created_on><sys_id>83e910f7831c83105587fa96feaad381</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Field Values Validation</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_83e910f7831c83105587fa96feaad381</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-23 17:45:54</sys_updated_on><table>x_1883746_loaner_0_loaner_request</table><test display_value="All fields from Request Details section render">97365cff83d883105587fa96feaad3fc</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=83e910f7831c83105587fa96feaad381"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>83e910f7831c83105587fa96feaad381</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-23 16:58:45</sys_created_on><sys_id>93f9d0f7831c83105587fa96feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-23 16:58:45</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>83e910f7831c83105587fa96feaad381</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-23 16:58:45</sys_created_on><sys_id>97f914f7831c83105587fa96feaad3cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-23 16:58:45</sys_updated_on><value>assigned_to=02826bf03710200044e0bfc8bcbe5d3f^EQ</value><variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>83e910f7831c83105587fa96feaad381</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-23 16:58:45</sys_created_on><sys_id>dbf914f7831c83105587fa96feaad3cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-23 16:58:45</sys_updated_on><value>x_1883746_loaner_0_loaner_request</value><variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=83e910f7831c83105587fa96feaad381"/></record_update>]]></payload>
+        <payload_hash>875451345</payload_hash>
+        <record_name>Field Values Validation</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 17:45:54</sys_created_on>
+        <sys_id>06c460b3839c83105587fa96feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dbb72c6b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 17:45:54</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>42c460b3ff9c8310e6fe242dac99b5d7</update_guid>
+        <update_guid_history>42c460b3ff9c8310e6fe242dac99b5d7:875451345,f1c460b3c19c8310997240f6c4c121ae:-1793912942,7dc460b3929c8310f4333dd930914d70:-168309933,3dc460b3459c8310304b9f386ebf2632:1457293076,d7f914f7501c831063abdab173cec3cf:-523929790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 17:45:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0008d3e5917b4e09800005b74caa20f9</sys_id>
+        <sys_metadata>83e910f7831c83105587fa96feaad381</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_83e910f7831c83105587fa96feaad381</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_83e910f7831c83105587fa96feaad381">06c460b3839c83105587fa96feaad3d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 17:45:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
