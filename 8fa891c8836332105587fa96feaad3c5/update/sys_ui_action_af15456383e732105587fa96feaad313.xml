@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.state == 10 || current.state == 11 ) &amp;&amp; current.approval != 'rejected' &amp;&amp; gs.hasRole('x_1883746_loaner_0.requester')</condition>
+        <condition>!current.isNewRecord() &amp;&amp; (current.state == 10 || current.state == 11) &amp;&amp; current.approval != 'rejected' &amp;&amp; gs.hasRole('x_1883746_loaner_0.requester')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -46,7 +46,7 @@ function confirmCancel() {
     }
 }
 
-// 2. SERVER-SIDE: This runs only after gsftSubmit is called above
+// 2. SERVER-SIDE: This runs only after gsftSubmit is called above. Indicates that we are not on the client side anymore.
 if (typeof window == 'undefined') {
     executeCancellation();
 }
@@ -70,7 +70,7 @@ function executeCancellation() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af15456383e732105587fa96feaad313</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Cancel Loan Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
@@ -78,7 +78,7 @@ function executeCancellation() {
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name>sys_ui_action_af15456383e732105587fa96feaad313</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-16 19:17:09</sys_updated_on>
+        <sys_updated_on>2026-04-26 18:01:10</sys_updated_on>
         <table>x_1883746_loaner_0_loaner_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

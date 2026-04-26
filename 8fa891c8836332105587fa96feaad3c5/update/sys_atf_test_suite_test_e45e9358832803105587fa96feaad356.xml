@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>100</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-25 20:33:33</sys_created_on>
+        <sys_id>e45e9358832803105587fa96feaad356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1a7d53d4832803105587fa96feaad36d</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_e45e9358832803105587fa96feaad356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-25 20:33:40</sys_updated_on>
+        <test display_value="Requester cannot see Cancel button on new form">1a7d53d4832803105587fa96feaad36d</test>
+        <test_suite display_value="UI Actions">c1c95fd483e403105587fa96feaad350</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
