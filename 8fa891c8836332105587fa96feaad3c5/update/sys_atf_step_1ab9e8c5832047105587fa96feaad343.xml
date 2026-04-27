@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Submit the Record Producer and confirm submission canceled in browser</description>
+        <display_name>Submit Record Producer (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Submit Record Producer (SP)">7c69d2788743030070870cf888cb0b5f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 15:20:00</sys_created_on>
+        <sys_id>1ab9e8c5832047105587fa96feaad343</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Submit Record Producer (SP)</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_1ab9e8c5832047105587fa96feaad343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 15:22:46</sys_updated_on>
+        <table/>
+        <test display_value="End Date can't be before Start Date">cb686045832047105587fa96feaad3bf</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=1ab9e8c5832047105587fa96feaad343"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1ab9e8c5832047105587fa96feaad343</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 15:20:00</sys_created_on>
+        <sys_id>f7b96cc5832047105587fa96feaad3c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 15:22:46</sys_updated_on>
+        <value>form_submission_cancelled_in_browser</value>
+        <variable display_value="Assert Type">3c2ad2788743030070870cf888cb0b0c</variable>
+    </sys_variable_value>
+</record_update>

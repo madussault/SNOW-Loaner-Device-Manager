@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>400</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 15:15:23</sys_created_on>
+        <sys_id>ac75ec8183ec07105587fa96feaad344</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cb686045832047105587fa96feaad3bf</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_ac75ec8183ec07105587fa96feaad344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 15:15:27</sys_updated_on>
+        <test display_value="End Date can't be before Start Date">cb686045832047105587fa96feaad3bf</test>
+        <test_suite display_value="Service Portal, Employee Center &amp; Record Producer">a9b6c03c832c83105587fa96feaad390</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
