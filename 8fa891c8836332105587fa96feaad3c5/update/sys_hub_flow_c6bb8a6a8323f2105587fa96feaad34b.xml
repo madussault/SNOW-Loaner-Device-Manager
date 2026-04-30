@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=943400000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4134422000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>loan_approval</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_device.model.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_model","column_name":"name","usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_start_date","label":"3 - Update Record➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created or Updated_1.current.u_requested_for.manager.last_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}},{"name":"{{static.289f0ad483e7b2105587fa96feaad3fa}}","label":"Loaner Fulfillment","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_end_date","label":"3 - Update Record➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}},{"name":"Created or Updated_1.current.u_device.model","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model","reference":"cmdb_model","reference_display":"Product Model","type":"reference","base_type":"reference","parent_table_name":"alm_asset","column_name":"model","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Loaner Request Record","reference":"x_1883746_loaner_0_loaner_request","reference_display":"Loaner Request","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["record"],"baf5d44d-900e-4938-9bed-301436d92021":["record"],"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["record"],"38bfcb2b-5177-4557-8183-93b95357ad07":["record"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["record"]},"attributes":{"":""}},{"name":"Created or Updated_1.current.u_end_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_to"]}},{"name":"{{static.ce6f46d483e7b2105587fa96feaad336}}","label":"Loaner Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"baf5d44d-900e-4938-9bed-301436d92021.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_start_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.manager.first_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.u_requested_for.manager.first_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}},{"name":"Created or Updated_1.current.u_start_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"baf5d44d-900e-4938-9bed-301436d92021.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.ce6f46d483e7b2105587fa96feaad336}}","label":"Loaner Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_to"]}},{"name":"Created or Updated_1.current.u_end_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Loaner Request Record","reference":"x_1883746_loaner_0_loaner_request","reference_display":"Loaner Request","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["record"],"baf5d44d-900e-4938-9bed-301436d92021":["record"],"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["record"],"38bfcb2b-5177-4557-8183-93b95357ad07":["record"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["record"]},"attributes":{"":""}},{"name":"Created or Updated_1.current.u_device.model","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model","reference":"cmdb_model","reference_display":"Product Model","type":"reference","base_type":"reference","parent_table_name":"alm_asset","column_name":"model","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created or Updated_1.current.u_requested_for.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_end_date","label":"3 - Update Record➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"{{static.289f0ad483e7b2105587fa96feaad3fa}}","label":"Loaner Fulfillment","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"Created or Updated_1.current.u_requested_for.manager.last_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","choices":[{"order":0.0}],"usedInstances":{}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_start_date","label":"3 - Update Record➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_device.model.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_model","column_name":"name","usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}}]</label_cache>
         <master_snapshot>643e5a2283e3f2105587fa96feaad337</master_snapshot>
         <master_snapshot_digest/>
         <name>Loan Approval</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>818ad6ce833732105587fa96feaad361</remote_trigger_id>
+        <remote_trigger_id>4f47a4c6836c0f105587fa96feaad353</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c6bb8a6a8323f2105587fa96feaad34b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Loan Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name>sys_hub_flow_c6bb8a6a8323f2105587fa96feaad34b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:25:09</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:17</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record/>
+        <version_record>2f47e4c6836c0f105587fa96feaad336</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c6bb8a6a8323f2105587fa96feaad34b"/>
     <sys_variable_value action="delete_multiple" query="document_key=c6bb8a6a8323f2105587fa96feaad34b"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-24 19:19:32</sys_created_on>
+        <sys_created_on>2026-04-30 17:43:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>818ad6ce833732105587fa96feaad361</sys_id>
+        <sys_id>4f47a4c6836c0f105587fa96feaad353</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:32</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:14</sys_updated_on>
         <table>x_1883746_loaner_0_loaner_request</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -86,14 +86,14 @@
         <identifier>c6bb8a6a8323f2105587fa96feaad34b</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-24 19:19:32</sys_created_on>
-        <sys_id>c58ad6ce833732105587fa96feaad362</sys_id>
+        <sys_created_on>2026-04-30 17:43:14</sys_created_on>
+        <sys_id>8747a4c6836c0f105587fa96feaad355</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:32</sys_updated_on>
-        <trigger display_value="">818ad6ce833732105587fa96feaad361</trigger>
+        <sys_updated_on>2026-04-30 17:43:14</sys_updated_on>
+        <trigger display_value="">4f47a4c6836c0f105587fa96feaad353</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c6bb8a6a8323f2105587fa96feaad34b^sys_idNOT INc58ad6ce833732105587fa96feaad362"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c6bb8a6a8323f2105587fa96feaad34b^sys_idNOT IN8747a4c6836c0f105587fa96feaad355"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c6bb8a6a8323f2105587fa96feaad34b"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c6bb8a6a8323f2105587fa96feaad34b^sys_idNOT IN02bb4eea8323f2105587fa96feaad3e2"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -401,13 +401,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 22:02:23</sys_created_on>
         <sys_id>0746d22283a3f2105587fa96feaad3e9</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:29</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:11</sys_updated_on>
         <ui_id>8fc45a4a-973e-4a59-ab31-1b968d9818e8</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1UUW/TMBD+K1GeoyhputL1DVFVQoJNKrCXMSwnubQGx84cp12p+t85O05aNlZV1RAC0af4zvfd952/3u3WZ7k/8YeQR/FlPMqSOEkGUTQYD+N0lKTxIE8oQOwHvqAl4E0FmVQ5nleUNyaw3b5RQDXknlTepyo3nyQOs0YpEHq3w6s5qytONzeuAiPZkvEc8/7k9i7wK6oQXIPyJ9tHKb2pgHCaAsfCqcyaEkG9t1PEOJV4Vz3vmD9WYnrgOXfohJkgpgyfOAp8eNAgcsB2BeU1BH5JBcqUauNPtGowgAPIrwXf9DeWTOhWaUkfavYd8YeRuVcASsvcFPojcRPqhiNZBteVZlK0EU1T3k1O8qYUV60EM1soaMP1wWybGvGgMpQNiZZh8WEp1/Ou34wJq86x5TKjvD9RrRVLGw21eQ7gYIdS0qpiYkEqJVfMFiOVMlxwPIQFl2vsWbOFCGlmeIc4IBrOMD614RuqmBHxHmGweGfFk/vG9G1lOMLEaraCiX0ovFpnilX6NQKvwNHcBc650eCoAWD/3taw9YFzkQqKofxzE0UJWu4rZOjdL2upvhEhUX+bmMM91mmvu+ClGw8dQBegPO+4+8OGqLYao4VUoasLC6ZqbfXtdudicNpDPP2P/VPaztsWH6HEiWjw2pkEJ/ulA5gx4Hn9CwO5haFdA7JyDfqd8WJLIx5F9vd/dfyG1ZFeHLNCdrl/+QPM/fp4IPF4nLwajgiXVIAiUffhPP30X/nO5r15nz/T2YaOd9XSOVXKT8XPSOuMfRhzpr54MU+P/5CbHaO/zM7PmfjuB8VnDXa7CQAA</values>
+        <values>H4sIAAAAAAAA/+1UUW/TMBD+K1GeoyhputL1DVFVQoJNKrCXMSwnubQGx84cp12p+t85O05aNlZV1RAC0af4zvfd952/3u3WZ7k/8YeQR/FlPMqSOEkGUTQYD+N0lKTxIE8oQOwHvqAl4E0FmVQ5nleUNyaw3b5RQDXknlTepyo3nyQOs0YpEHq3w6s5qytONzeuAiPZkvEc8/7k9i7wK6oQXIPyJ9tHKb2pgHCaAsfCqcyaEkG9t1PEOJV4Vz3vmD9WYnrgOXfohJkgpgyfOAp8eNAgcsB2BeU1BH5JBcqUauNPtGowgAPIrwXf9DeWTOhWaUkfavYd8YeRuVcASsvcFPojcRPqhiNZBteVZlK0EU1T3k1O8qYUV60EM1soaMP1wWybGvGgMpQNiZZh8WEp1/Ou34wJq86x5TKjvD9RrRVLGw21eQ7gYIdS0qpiYkEqJVfMFiOVMlxwPIQFl2vsWbOFCGlmeIc4IBrOMD614RuqmBHxHmGweGfFk/vG9G1lOMLEaraCiX0ovFpnilX6NQKvwNHcBc650eCoAWD/3taw9YFzkQqKofxzE0UJWu4rZOjdL2upvhEhUX+bmMM91mmvu+ClGw8dQBegvOPmDxui2mKMFlKFriwsmKq1lbfbnYvBaQ/x9C/2L0k7b1d8hBIHosFrRxKc7JYOYMaA5/Uv7OPWhXYNyMo16DfGi62MeBTZ3//F8RsWR3pxzArZ5f7lDzD3y+OBxONx8mo4IlxSAYpE3Yfz9NM/5Tub9+Z9/kxnGzreVUvnVCk/FT8jrTP2YcyZ+uLFPD3+Q252jP4yOz9n4rsflwopGbkJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0746d22283a3f2105587fa96feaad3e9"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -425,10 +425,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 21:46:40</sys_created_on>
         <sys_id>0db2da6a8363f2105587fa96feaad351</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:29</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:11</sys_updated_on>
         <ui_id>b415a31a-81fa-4615-8a71-51949e9eb7f6</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1a227jNhD9FULPkVe+29mn7aaLBthLsetuUWwWAkVSMRtJ1FJUEjcw0Pd+QoF+XL+kQ4qy5dhxFDtwE6yeYvEyPDNzZoYM+eXG4dQ5dvrjkTcIwh4eet1O1/NGnfE46I5DbzQce22KnSMnwTGDkXjqKwGflzjK9ffNzWvJsGIUCYl+San+6bdbJJeSJaqV+5J9y1mmW0MhWyzGPJrPEUigPEsjPPu8tyAy5RGFQc7xl69HToolIFVMOsc3t7rULGV+hAMWwXqflOTJOUyva4By4kSsW0NLhs+slCkk1QC6Rw67ViyhDNYIcZSxIyfGCegm5Mw5VjKHBtCafkiiWWXEdcb/AHkjz/N0f8hABaIXcCqfvjVg0UymghP2IVVcJEWLwkFk5xAR5XHyvsCsTc9CnEeqND205BnIY6mGmqgFkvDTVFx9LBd8wxOjle2MBMHR4gsr0D3IFcu03VnEYhDkxzhNwSJ+KsUlN5MBS9w6j+CjFUbiChbN+HnSwkQDb4FlcOsNtJ+Y5s9Ycq3FOxADkzXwiMfcONfR1nPmxiD+t1xDKVSzSviFHWBARiRP1StY4ZJZvPMjS3xvMAiCQdAfdpd+H5OQDoNwgIeku3T1FRBSxlhe+IZ6lRBor5PZYNuVmROY/OKNhlmyswbKcvJpQqKcMvRrCXebBpa2gRARw8mSt53tvLUta8Sdcs0dpyAhUgKB26IZwmixsm5UU4YMAPiFFeIZynSAo4lA3IKvzDhCM5GjOM8UDFPQo7A8hx+SEQDbcirh0jtIsFjX2taTjX5/FtG0b+i06baUyQYrWTIgpBIx6wHzSGm8BqZy4g+vX29AeEci7+8WEE0mP1wm7211PaFLZxepo/YeZj5/RLqeCJJre6LTk5KzNYAvKkOR+z6WCtxWyLKX2kV8TpcU9vbK6a+yTBAOhskq+fuKqylk5A2puNtZZTskdm74uJn1p8vux2V/scPamfwEyqL0bxHR5vj/JykbY/jG7/fEA95Kq7CzmvwEnVUC4iz3vC5JkcbqKp7MYsKkECoAY12YTnrmnBXD2G9QnwlOUMrJRZ4aelB2CU5EUN0LSVkK/STCWVZO1pJ9CBqtWMqj6MxBmZpFbNFfcOMYtgQRT9hL6CciAfpCaHJjhHKk0Rq6DVYtyihR9t7chNRXEicZHBri4/E4DMa94chl4zZxe5iM3PEg7Li9oM/IqE+GhPbn81Kz7eBhKYQwISxV2XIJP8wT4+gMMAFQTbbrcqJ3YDWsA+HUxGkp6gSafgb5p7SOmgaKazGbvxjcIe+bqmdldQYBuGu1AAr7UMVTdwnWnK9M40Skt4dZVOXYieTn50wi1+ZHtJ7UDR07g3P1Er0VGPSAoeZQWU5Z9n+CfaZCYCxWS41MDy9H1kBSCHuhpdWQjqUUV/XdZcqFSyC61EMnraz07z9/34Gz0tBqtZ4YoofZFrJrKb3i810XgdKh4OyzZPB6YvBDTDBlfp0g1vmiivhOaSgRlRykz10cSOYgXV0KQ5YiPkA9QYuhqJRj0jdwFhpRDf6CIzZGELTXj5wit7tFFXM5xPOGGZvLQiJMUbCs+POv2g4rHPQwp1YaEOyYzIl0ii+ZPs0G+qCAuEIBJhdPsOLh9qg3DHHg9juEur1uCCwjA+p2gtALvG5/iNu9Z1Dx6qrRVLydK96PwOym3n1P9W7h8QNUuzoB/ByrXd2oeYa1zjakxdf6P0GKftt9oFPg45SpJ1MFmkz7fWTa5mTRnCye0MmiyaJNFn2GWbTZrzb71YfsV3e7ovtp8u5teTdX4xJlcZ9cXKGs3anYO7mpiqPlZdxwz/vkQb/fHTQXytUL5fSKdqgUaWp1e5RL5fb2Z2G9pcMrF3PLe7Rrvz0adYe9gR+ZcPS98od9zLZ+qFqN293fEGk46H0Bp64qK5PvUM3SeaXNkrq91w3zBE6MK297kLIwKq8oGspXKc8zvyCv1c0svjfn+9vf0JCVJJflwe+MqN0fhGpR87l55SWRDg5k+02tw+heccV/GVqxoCyy0mALnaGAQSUFS4GtmXmcsN9708PhfJTnrPf7cDFx4cFNXr3jPdSgedj6lJ7i0a25nXkrzj3MS7wakMqJtx7ibXuH12ve4T3Vd3hf/wNONxeWTDAAAA==</values>
@@ -449,10 +449,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 21:19:47</sys_created_on>
         <sys_id>9b8c8a6e8323f2105587fa96feaad3bf</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:29</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:11</sys_updated_on>
         <ui_id>baf5d44d-900e-4938-9bed-301436d92021</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1XXW/iOBT9KyjPlHUIhNC3aqtKs5rdSrSdl1JFxr4pHhkn4yQzZRH/fa8T56MwTVFhNF2pLwhff5177jmOfb9xBHfOHRj53hh/JpFH3KFLAvCDgE0JZYHvj0ee03cUXQGOpEmi4+9UhhpoGivswEZuevAvF2ki6fpLE2FLIbkG5ZzfP/SdhGpcJQPtnG92urJ1AqGkC5A48SbTQj3i9EPBVRMvLLrerEL3ImyzIXak1Vax5gbXsO/AUwaKA24dUZlC31lRxWkW63UdwVX4tZJNYClUVma8ok+p+BeXdn1iBkaAOTJLR90MLVUVS7FgcJ1kAqEVkYwuZEVhLPOV+qfMw5AMEc1l1iI5T3E9SAxog8JCim6W8Y9ZteGVUEV+tlPGjMq6RTNkYZFnkJrC5OJ2h5sy8nm3OiBhhTuGK2QXI6GhWBS7IOjV4FFiYxDJ+AeiS8WjGlBmMhwgmXRwhfHLIvyFamHS/RuXwclmuzslvuXwyVTfHy78KQn4GY/I4mwUeOMzyoCcge+OYcx9NnY9Z1tQG37LTVIlSZaOsGQUB6RMiyS7QAjfwWa+7Vv9EzcawnQ6JAuXEI+QYMxI4MHCm/gTj/LgJ0KKBEjekn/VsW+DVs/b7HBltuoVCugfjHfPElcW8EuJWEMUzVCVm53cFAEhv8kVmc6PMcWv0fprui0TfkW8rFMM0Dq8v8a5Vh3aDZciLUr6ooZbI06l5QPgV5P/KvHvSnk3rQ4lex9KfsdKngRdUmCkKbkGhhVtSXiz+ROrlgHvxbp3l3DzN3QHLNfIT7bdnvB2chmz3DDY+3RZafgA4NXsWYV8NxOrWm5XDwVvZEu6ZVsq4hDVesMPzZ749B13lT6aNpXmOVKCumyrdu6USOfO+dxRsYK50587ZlRo9FCEcQQirDuK2Gaz3ZaRXFO7gNtqNrM5XafFyJQtgeeyjD6LlMq28VM65cZu0LtE3H/citah/zprtd3ycv5Piaxu8VUmJXOifeSPT3bkj/6nF/pfd08P67stugUtfvRFfNSpC2iJoL6RsFhxYfCmLWOVt15IL9T67r772zDI8VGIr43URKNYD1Ac9BH0dvtwrWfwFVh25DL7jnpv8N5m7+a1jdZLK2sfUML6W2jndZbUWrx5wdtJ1t6jU30af9+F7n36+1grL1jnnYg1dS+5a8z7FLpB4E1GfihjqkCHpPpjJbxvqM9Ff29W979N0bcGybPXyQFZPJu8n5XVb9HceY24J3yNfEj3eOk+/Adby9kGEBUAAA==</values>
@@ -473,10 +473,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 21:45:21</sys_created_on>
         <sys_id>b162526a8363f2105587fa96feaad3b6</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:29</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:11</sys_updated_on>
         <ui_id>38bfcb2b-5177-4557-8183-93b95357ad07</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1SXWvbMBT9K0bPxthxmqV5GwuBwdZCtvWlK0K2bhqBLLmynCYL+e+7kuUka5cSSscYzE++X+eec3Vut0RwMiFD4Gl2mY3KPMvzQZoOxsOsGOVFNuA5A8hITBSrADsNlNpwjFdMti6x3X4wwCzwSJvoW83dL82SsjUGlN3tsJWLppZscxMmMFMuheRYJ5Pbu5jUzCC4BUMm2yclu6mBSlaAxMGpLtsKQaOPU8Q4l3g/Pe+ZP1XidmDMAzoVLoklxydLYwJrC4oDrlsw2UBMKqZQpjYbMrGmxQQegF8rudl3LIWyndKKrRvxA/GHqetbAEorwxX2IQ0X6o+jRQnXtRVadRnLCtlfTsu2UledBHdbWLBW2qPbtg3iQe0oOxIdw8WXpX6c9/tmQnl1ga3UJZP7iFlrRNFaaNxzgAR/lIrVtVD3tDZ6JfwwUqmSe4lBspD6EXc24l4lrHS8EzwQS2aYn/r0DTPCifiMMDi88+LpQ+v2djICYeo1e8HUPxS2NqURtX2PwCsINHdxcG46eNEAcHhvb9jmyLlIBcUw+b1N05x3EfDnfj3Z9zoXf4UK0S1EHX58to4eYCZA8uY3woKRbVhAV2HB3stvZuZslPrvv6X/gKWLi5esUF4eXv4I82DrNc3G4/zdcESlZgoMTfsfAw9oFPvc4Z98PZrv6690tqMTXXV0zpXyy/AJab2xj3PB1Bdv5unxX3JzYPSP2fmUie9+Auhizc1TCAAA</values>
@@ -502,10 +502,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 21:42:06</sys_created_on>
         <sys_id>4ea15ae68363f2105587fa96feaad360</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:29</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:11</sys_updated_on>
         <ui_id>d33a56c8-96ef-4319-915f-30de92ea095c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lYBnW6AeNiLfghYBCrQN0AS5tIGwIlc2UUpUSSqJa/jfu9TDMWIXLYocexOH+5jZHWrHTOfbzrs7c+WcWjds9fVhxlQTMPresQZqZCsmTCOVV6ZhM/YIugvYbldCtZBZJuc55zjP8vRynpco5ymPs3Qp84QncQRtaw3lFM6Dx/3+W8d5KgcUJdWTyrUatvdvXFZslJYWR0ktWFLi0bLV7tWV37ZYaChRU/dbb1WzpnQl6ZTDolrEfCHSZJkmnCeXWVwu0zJOZAqYLSluSnx3NKEzQwtNCHJTeWNl4JLwGcNnj40kzqsKtMMZq6GR4I3dspW3HQEWQd40enuI2KjGUzUWYp+d+omhEuchskISJnC4PRyLccgDLDZGCbxpe2494qHUY44wuqubz4OEsB6soNN+Wg8hnaN62AbSgcbIqbrdmKcvU8Nr1fQCx0ttBOjDCTyNoew8urAN1FhToaKm5dFwirBB1ScTlzpaazpElTZP1DR4NAIRiEc0I4iuCX/fw/dgVVDxicpQMm3QFU5Y1U7a+uZs30+l+NEFPoO+UUkxDIMChrQravOII+n97PQtFD3w8iBob7BGezGa0J16+0zEW9i04lDFuYjP2xTScza9+Ngjp2adVP3GsfEfHDsif2XZxeK/Y48dG2iW4JQo+j8wlQvv/58t+xCsObRwg4ckCuWIyV3APkx/+XCxpa0rcQw9Gfs9aHjB9r8ARkzVJy8GAAA=</values>
@@ -529,10 +529,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 21:57:41</sys_created_on>
         <sys_id>9635d26e8363f2105587fa96feaad328</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:29</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:11</sys_updated_on>
         <ui_id>b139a771-c3b0-44f5-9e7b-bb55bc1c38ea</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UXW/TMBT9K5Of28hJ2mrt2wSahARMYtNeYIpu7JvW4NjBdtaVqv+d63x0FR0CIcQTb/Hx/Tjn3uPsmW1D0wZ/Z6+8V2vDVh8fJkyZiNH3nhmoka2YsEaqoKxhE/YIuo3Yfl9CNZezmZwuOcfpbJlfTpclymnO01m+kMuMZ2kCTeMs5RQ+QMDD4VPLeS4dfkYRUFI9qXyjYXf/l8uKjdJ0HiQ14EhJQMdW+x+uwq7BQkOJmrrfBqfMmtKVpFPFoUqXIhV5tsgzzrPLWVou8jLNZA4IKcWNia9OJvTC0GITgvxY3joZuWR8wvApoJHEeVWB9jhhNRgJwbodWwXXEuAQ5I3Ru2PERplA1ViMffLqG8ZKnMfICkmYwP72eCyGIfew2Fgl8KbpuHVIgFIPOcLqtjbvewlxPVhBq8O4HkJaT/WwiaQjjYFTdbux2w9jw2tlOoHDpbYC9PEEgcZQtgF93AZqrKlQUdNKaThF3KvqkolLnaw1HZJK2y01jR5NQETiCc0IkmvCX3fwPTgVVbyjMpRMG/SFF041o7auOTt0Uym+tpFPr29QUvTDoIA+7YraPOJA+jA5fwtFBzw/CNobrNFd9Cb059Y+D/gHJs1eMunF2w45t+qo6Sd+TX/h1wH5LcPO5//9eurXSLMEr0TR/X+pXHz9f2zYh2jMvoXvPSRRKE9M7iL2ZvzHx4sdbV2JU2hr3Zeo4Rk7fAfRP3y/LQYAAA==</values>
@@ -621,7 +621,7 @@
         <sys_created_on>2026-03-13 21:16:38</sys_created_on>
         <sys_id>09dbc22e8323f2105587fa96feaad3ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
@@ -644,7 +644,7 @@
         <sys_created_on>2026-03-13 21:16:38</sys_created_on>
         <sys_id>4ddbc22e8323f2105587fa96feaad3ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
@@ -667,7 +667,7 @@
         <sys_created_on>2026-03-13 21:16:39</sys_created_on>
         <sys_id>59db062e8323f2105587fa96feaad306</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
@@ -693,7 +693,7 @@
         <description>Ask for approval when a loan is requested</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>loan_approval</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_device.model.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_model","column_name":"name","usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_start_date","label":"3 - Update Record➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created or Updated_1.current.u_requested_for.manager.last_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}},{"name":"{{static.289f0ad483e7b2105587fa96feaad3fa}}","label":"Loaner Fulfillment","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_end_date","label":"3 - Update Record➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}},{"name":"Created or Updated_1.current.u_device.model","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model","reference":"cmdb_model","reference_display":"Product Model","type":"reference","base_type":"reference","parent_table_name":"alm_asset","column_name":"model","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Loaner Request Record","reference":"x_1883746_loaner_0_loaner_request","reference_display":"Loaner Request","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["record"],"baf5d44d-900e-4938-9bed-301436d92021":["record"],"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["record"],"38bfcb2b-5177-4557-8183-93b95357ad07":["record"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["record"]},"attributes":{"":""}},{"name":"Created or Updated_1.current.u_end_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_to"]}},{"name":"{{static.ce6f46d483e7b2105587fa96feaad336}}","label":"Loaner Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"baf5d44d-900e-4938-9bed-301436d92021.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_start_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_requested_for.manager.first_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.u_requested_for.manager.first_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}},{"name":"Created or Updated_1.current.u_start_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"baf5d44d-900e-4938-9bed-301436d92021.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.ce6f46d483e7b2105587fa96feaad336}}","label":"Loaner Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_to"]}},{"name":"Created or Updated_1.current.u_end_date","label":"Trigger - Record Created or Updated➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Loaner Request Record","reference":"x_1883746_loaner_0_loaner_request","reference_display":"Loaner Request","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["record"],"baf5d44d-900e-4938-9bed-301436d92021":["record"],"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["record"],"38bfcb2b-5177-4557-8183-93b95357ad07":["record"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["record"]},"attributes":{"":""}},{"name":"Created or Updated_1.current.u_device.model","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model","reference":"cmdb_model","reference_display":"Product Model","type":"reference","base_type":"reference","parent_table_name":"alm_asset","column_name":"model","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created or Updated_1.current.u_requested_for.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_end_date","label":"3 - Update Record➛Loaner Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_end_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"{{static.289f0ad483e7b2105587fa96feaad3fa}}","label":"Loaner Fulfillment","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"baf5d44d-900e-4938-9bed-301436d92021":["approval_conditions"]}},{"name":"Created or Updated_1.current.u_requested_for.manager.last_name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","choices":[{"order":0.0}],"usedInstances":{"8fc45a4a-973e-4a59-ab31-1b968d9818e8":["work_notes"],"1fe3f3fc-95f1-4696-b72d-1f3e2b23329c":["values"]}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Requested For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","choices":[{"order":0.0}],"usedInstances":{}},{"name":"38bfcb2b-5177-4557-8183-93b95357ad07.record.u_start_date","label":"3 - Update Record➛Loaner Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1883746_loaner_0_loaner_request","column_name":"u_start_date","choices":[{"order":0.0}],"usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":[null]}},{"name":"Created or Updated_1.current.u_device.model.name","label":"Trigger - Record Created or Updated➛Loaner Request Record➛Loan a Device➛Model➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_model","column_name":"name","usedInstances":{"b415a31a-81fa-4615-8a71-51949e9eb7f6":["ah_subject"]}}]</label_cache>
         <master>true</master>
         <name>Loan Approval</name>
         <natlang/>
@@ -710,7 +710,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>643e5a2283e3f2105587fa96feaad337</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -718,7 +718,7 @@
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:31</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:13</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -802,14 +802,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>3c3e5a2283e3f2105587fa96feaad371</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:31</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -886,14 +886,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 22:36:53</sys_created_on>
         <sys_id>a43e5a2283e3f2105587fa96feaad33a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:31</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1055,13 +1055,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>383e5a2283e3f2105587fa96feaad39a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-22 19:07:58</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:13</sys_updated_on>
         <ui_id>8fc45a4a-973e-4a59-ab31-1b968d9818e8</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1UUU/bMBD+K5GfqyhpSlf6NlEhTepAKowXBpZjX1pvThxsB+iq/vddEiftgCGYeBjT+hTf+c7f9/W7u9wQKciUjEBE8WE85kmcJMMoGk5GcTpO0ngoEgYQkwEpWA540wDXRuD5lqmqDmw2RwaYAxFoE3wpRf1J45BXxkDhtlu8KqQtFVtf+AqM8JVUAvNkenk1ICUz2NyBIdPNg9RL0SmWgsKriw7eQ7huXdZnoXmVIy4qu+DcV858Jvg0wwwW1XDiaEDg3kEhAIFkTFkYkJwVyFKbNZk6U2EA+YvTQq37GytZuJZozu6t/IEvj6L6XgbIjHsR+iP1ArXhbMYcO8PO3FWm10tLDrbVREDGKuWO9mPthdPSSV20JY6lqqvWqsqLk1YR0jfY+z8qiyCgrHnWyFta2dlK3y06kMeyaCTxFJXmTPUn5pyRaeVqOBsCChqNc1aWsljS0uhb2RQjlDxcKjyEmdJ3+KaVyyJkvMYdoqosPMb4rAlfMCNrEp+xDRZvB8Su7ZFi1u6ooIb0pqqRtMQ8Bdqo0EhAGyfUxdzI0n3Ep27BA98OvP+j4bMOg52hGtvbPf8jOKTH1NcqihI07jfgOAHXd9p8p4VGRdrEAm6wzgXdhSBdB2gktgQTBM/PUFhR01ZjNNMm9HVhJo11Db/t9k97oJxdi8eT+k9xe93OeYEjup1zLEEJ+4RF/M5xkKOoDmhrmV/XzrlPBhc+2W+eN1s98Thqfv8X0N+7gNKD5+zGD3fu2uu5W0L3NJ5Mkg+jMVWaFWBo1H34yXg82/MmHyz6/Ovm4wWAu/k4b4zwNIFuRB7G5vu1wUmb8KNx8GaTMXlPM+FpvPuh+N0oXP0EQL8N5Y0KAAA=</values>
+        <values>H4sIAAAAAAAA/+1UUU/bMBD+K5GfqyhpSlf6NlEhTepAKowXBpZjX1pvThxsB+iq/vddEiftgCGYeBjT+hTf+c7f9/W7u9wQKciUjEBE8WE85kmcJMMoGk5GcTpO0ngoEgYQkwEpWA540wDXRuD5lqmqDmw2RwaYAxFoE3wpRf1J45BXxkDhtlu8KqQtFVtf+AqM8JVUAvNkenk1ICUz2NyBIdPNg9RL0SmWgsKriw7eQ7huXdZnoXmVIy4qu+DcV858Jvg0wwwW1XDiaEDg3kEhAIFkTFkYkJwVyFKbNZk6U2EA+YvTQq37GytZuJZozu6t/IEvj6L6XgbIjHsR+iP1ArXhbMYcO8PO3FWm10tLDrbVREDGKuWO9mPthdPSSV20JY6lqqvWqsqLk1YR0jfY+z8qiyCgrHnWyFta2dlK3y06kMeyaCTxFJXmTPUn5pyRaeVqOBsCChqNc1aWsljS0uhb2RQjlDxcKjyEmdJ3+KaVyyJkvMYdoqosPMb4rAlfMCNrEp+xDRZvB8Su7ZFi1u6ooIb0pqqRtMQ8Bdqo0EhAGyfUxdzI0n3Ep27BA98OvP+j4bMOg52hGtvbPf8jOKTH1NcqihI07jfgOAHXd9p8p4VGRdrEAm6wzgXdhSBdB2gktgQTPD9CYUVNW4zRTJvQl4WZNNY19LbbP+2BanYtHg/qv0TtdRvnBX7oNs6xBCXsEwbxG8dBjpo6oK1hfl065z4ZXPhkv3febPHE46j5/V8/f+/6SQ+esxs/3Llrr+duBd3TeDJJPozGVGlWgKFR9+En4/Foz5t8sOjzr5uPFwDu5uO8McLTBLoReRib79cGJ23Cj8bBm03G5D3NhKfx7ofid6Nw9ROYm2W4iwoAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=383e5a2283e3f2105587fa96feaad39a"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1132,10 +1132,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>703e5a2283e3f2105587fa96feaad390</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:31</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:13</sys_updated_on>
         <ui_id>d33a56c8-96ef-4319-915f-30de92ea095c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0XPTpA/Euq8lZTCYFthLX3ZirmW5ERMtjxJbuqZ/Pdd+SMJS2Ar6+PeoqN7r845OnI6ohtXN84+6htr5aYiq6/PAZGVx/B3RyooBVkRpisundQVCcgLqMZjXZdDseBJwmcppWKWpPH1LM0Fn8U0TOIlTyMahXOoa6OxJ7MOnNjvvzWUxnxABcd5XNpaQfv0zmPZVipuxCipBoNKnDBk1f22JTmemsKiWIR0weJoGUeURtdJmC/jPIx4DCJZ4kAFuVBYuj7x4oI9rq09ZJ2R1WZcfxxbHyZQG+6pRDQg4tWJiiPlVQHKioCUUHFw2rRk5UyDgBHA7yvVHiq2snI4jfjaVyt/Cj+JUl9ZCNTFxLB7WGajxwNc3IIDpNIw15ixlG21ZMIOjnBRQKPc+hQbCu7rXmXf4iBXU7dWTVl9HswghwHTlSLSWCQhaq/Ucx+FFA9bvfsysbyTVe/KuKk0A3VYgUPv8sZ5Ph0RSpQ4KCvxwtHRzN+67JuRSznfKFzMC6V3eKjP9RyYJz5HY2F+h/htDz+BkV7FJxyDzZgFm1lmZD1p6w8n+4DY1q4VWHvUiOZmPxrPcFA8assGe3xLP+gGD34Ro4x9cP6ish44Piu8ftgIczVG2Z6/kAsVbwt7QaEIUxZeDjvEl8J+NWT4PPIT/7fkPvxD7kfkr4K/WPzP/T/n3tPMwUqW9d9+HOc/Pe8Y/Gcf8OHQg9lMWuT26LEP0z+O32gxUZKdQjttvntVR2z/CwwsIxy7BgAA</values>
@@ -1159,10 +1159,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>f03e5a2283e3f2105587fa96feaad392</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:31</sys_updated_on>
+        <sys_updated_on>2026-04-30 17:43:13</sys_updated_on>
         <ui_id>b139a771-c3b0-44f5-9e7b-bb55bc1c38ea</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0XPiZHtJDR5KymFwbbCWvqyFXMtyYk2WfIkualn8t935Y8kLIVtLI97s47uvTrn+Mhuial9VXv3aG6ckxtNVp+fJ0TqgOFzSzSUgqwIM5pLL40mE/ICqg5Y2+ZQzPlsxqdLSsV0tkyvp8tc8GlK41m64MuEJnEEVWUN9mTOgxf7/Zea0pRb8VUwLzjO49JVCpqnC49lW6lwPUiqwKISLyxZtb9sSY6nFhSKeMliliaLNKE0uZ7F+SLN44SnICDGgQpyobB0feLFG/b4pgqQ81bqzbB+P7Q+jKCxPFBJ6ISIVy80R8qrApQTE1KC5uCNbcjK2xoBK4Dfa9UcKrZSe5xGQu2rkz9EmERpqCwE6mKi3z0ss8HjHi5uwQNSqZmv7VDKtkYy4XpHuCigVn59ivUF91WnsmvxkKux26i61B97M8hhwPhKEakdkhBVUBq4D0KKh63ZfRpZ3knduTJsKsNAHVbg0bu89oFPS4QSJQ7KSowBOpqFLMiuGbmU0UbhIiqU2eGhIdcRsEA8QmMhukP8toOfwMqg4gOOwWbMgsscs7IatXWHk/2EuMatFTh31IjmZt/rwLBXPGjLentCSzfoBg9+EYOM/eT8RmUdcLxW+PphI+xVH2V3fkHOCy4a9eStqF/1CT4P/Mj+b1If/yb1A/JHsZ/P/6f+n1MfaObgJMu6Lz+OCx+eC8b+OcS7P/RgNpMOuT0G7N34vwkbDSZKslNoZ+y3oOqI7X8C3g6gRbkGAAA=</values>
@@ -1251,7 +1251,7 @@
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>783e5a2283e3f2105587fa96feaad378</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
@@ -1274,7 +1274,7 @@
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>b03e5a2283e3f2105587fa96feaad36e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
@@ -1297,7 +1297,7 @@
         <sys_created_on>2026-03-13 22:36:54</sys_created_on>
         <sys_id>f43e5a2283e3f2105587fa96feaad34a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
@@ -1326,12 +1326,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc3e5a2283e3f2105587fa96feaad3c5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-24 19:19:32</sys_updated_on>
-        <trigger display_value="">818ad6ce833732105587fa96feaad361</trigger>
+        <sys_updated_on>2026-04-30 17:43:14</sys_updated_on>
+        <trigger display_value="">4f47a4c6836c0f105587fa96feaad353</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c6bb8a6a8323f2105587fa96feaad34b"/>
 </record_update>

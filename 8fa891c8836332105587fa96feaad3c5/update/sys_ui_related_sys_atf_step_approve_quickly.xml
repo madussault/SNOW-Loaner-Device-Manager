@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_atf_step" version="2" view="approve_quickly">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Test Step - approve quickly" name="sys_atf_step" related_list="NULL" sys_domain="global" view="f495e882836c0f105587fa96feaad398">309520c2836c0f105587fa96feaad3a1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-30 17:35:42</sys_created_on>
+            <sys_id>7c9520c2836c0f105587fa96feaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-30 17:35:42</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Test Step - approve quickly</calculated_name>
+            <filter/>
+            <name>sys_atf_step</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-30 17:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>309520c2836c0f105587fa96feaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test Step - approve quickly</sys_name>
+            <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+            <sys_update_name>sys_ui_related_sys_atf_step_approve_quickly</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-30 17:35:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="approve quickly" name="approve_quickly">f495e882836c0f105587fa96feaad398</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
