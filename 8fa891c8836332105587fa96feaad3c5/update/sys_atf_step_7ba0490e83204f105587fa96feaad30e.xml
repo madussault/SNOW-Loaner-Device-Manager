@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Run Server Side Script">7a1afc8e83ec0f105587fa96feaad3f1</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:34:08</sys_created_on>
+        <sys_id>7ba0490e83204f105587fa96feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_7ba0490e83204f105587fa96feaad30e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:34:08</sys_updated_on>
+        <table/>
+        <test display_value="Validate content of Overdue email notification">77a0090e83204f105587fa96feaad35d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=7ba0490e83204f105587fa96feaad30e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7ba0490e83204f105587fa96feaad30e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:34:08</sys_created_on>
+        <sys_id>bba0490e83204f105587fa96feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:34:08</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7ba0490e83204f105587fa96feaad30e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:34:08</sys_created_on>
+        <sys_id>ffa0490e83204f105587fa96feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:34:08</sys_updated_on>
+        <value>(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+    // 1. Query for your specific scheduled job&#13;
+    var scheduledJob = new GlideRecord('sysauto_script');&#13;
+    &#13;
+    // Make sure the name matches your scheduled job exactly!&#13;
+    if (scheduledJob.get('name', 'Check Overdue Loaner Devices')) {&#13;
+        &#13;
+        // 2. Use GlideScopedEvaluator to run the script synchronously&#13;
+        var evaluator = new GlideScopedEvaluator();&#13;
+        evaluator.evaluateScript(scheduledJob, 'script');&#13;
+        &#13;
+        stepResult.setOutputMessage('Successfully evaluated the scheduled job script.');&#13;
+        return true; // Pass the step&#13;
+        &#13;
+    } else {&#13;
+        stepResult.setOutputMessage('Failed to find the scheduled job.');&#13;
+        return false; // Fail the step if the job name is misspelled&#13;
+    }&#13;
+&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+</record_update>

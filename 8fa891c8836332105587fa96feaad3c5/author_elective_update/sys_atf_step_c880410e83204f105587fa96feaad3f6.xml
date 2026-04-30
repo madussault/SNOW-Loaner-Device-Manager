@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Run Server Side Script">7a1afc8e83ec0f105587fa96feaad3f1</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:33:20</sys_created_on>
+        <sys_id>c880410e83204f105587fa96feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_c880410e83204f105587fa96feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:33:20</sys_updated_on>
+        <table/>
+        <test display_value="Scheduled script send email notification past End Date copy">8480410e83204f105587fa96feaad3b5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=c880410e83204f105587fa96feaad3f6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c880410e83204f105587fa96feaad3f6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:33:20</sys_created_on>
+        <sys_id>0c80410e83204f105587fa96feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:33:20</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c880410e83204f105587fa96feaad3f6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:33:20</sys_created_on>
+        <sys_id>4080410e83204f105587fa96feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:33:20</sys_updated_on>
+        <value>(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+    // 1. Query for your specific scheduled job&#13;
+    var scheduledJob = new GlideRecord('sysauto_script');&#13;
+    &#13;
+    // Make sure the name matches your scheduled job exactly!&#13;
+    if (scheduledJob.get('name', 'Check Overdue Loaner Devices')) {&#13;
+        &#13;
+        // 2. Use GlideScopedEvaluator to run the script synchronously&#13;
+        var evaluator = new GlideScopedEvaluator();&#13;
+        evaluator.evaluateScript(scheduledJob, 'script');&#13;
+        &#13;
+        stepResult.setOutputMessage('Successfully evaluated the scheduled job script.');&#13;
+        return true; // Pass the step&#13;
+        &#13;
+    } else {&#13;
+        stepResult.setOutputMessage('Failed to find the scheduled job.');&#13;
+        return false; // Fail the step if the job name is misspelled&#13;
+    }&#13;
+&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_c880410e83204f105587fa96feaad3f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Run Server Side Script">7a1afc8e83ec0f105587fa96feaad3f1</copied_from><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 19:33:20</sys_created_on><sys_id>c880410e83204f105587fa96feaad3f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_c880410e83204f105587fa96feaad3f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 19:33:20</sys_updated_on><table/><test display_value="Scheduled script send email notification past End Date copy">8480410e83204f105587fa96feaad3b5</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c880410e83204f105587fa96feaad3f6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c880410e83204f105587fa96feaad3f6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 19:33:20</sys_created_on><sys_id>0c80410e83204f105587fa96feaad3f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 19:33:20</sys_updated_on><value>3.1</value><variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c880410e83204f105587fa96feaad3f6</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 19:33:20</sys_created_on><sys_id>4080410e83204f105587fa96feaad3f8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 19:33:20</sys_updated_on><value>(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+    // 1. Query for your specific scheduled job&#13;
+    var scheduledJob = new GlideRecord('sysauto_script');&#13;
+    &#13;
+    // Make sure the name matches your scheduled job exactly!&#13;
+    if (scheduledJob.get('name', 'Check Overdue Loaner Devices')) {&#13;
+        &#13;
+        // 2. Use GlideScopedEvaluator to run the script synchronously&#13;
+        var evaluator = new GlideScopedEvaluator();&#13;
+        evaluator.evaluateScript(scheduledJob, 'script');&#13;
+        &#13;
+        stepResult.setOutputMessage('Successfully evaluated the scheduled job script.');&#13;
+        return true; // Pass the step&#13;
+        &#13;
+    } else {&#13;
+        stepResult.setOutputMessage('Failed to find the scheduled job.');&#13;
+        return false; // Fail the step if the job name is misspelled&#13;
+    }&#13;
+&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+</value><variable display_value="Test script">989d9e235324220002c6435723dc3484</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-2068799388</payload_hash>
+        <record_name>Run Server Side Script</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:33:20</sys_created_on>
+        <sys_id>0c80410e83204f105587fa96feaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddfe1a7570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:33:20</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>c880410e23204f10003a06dd79103afa</update_guid>
+        <update_guid_history>c880410e23204f10003a06dd79103afa:-2068799388</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:33:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>e09bab06f7304ff28ba2a515bbb3c031</sys_id>
+        <sys_metadata>c880410e83204f105587fa96feaad3f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c880410e83204f105587fa96feaad3f6</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c880410e83204f105587fa96feaad3f6">0c80410e83204f105587fa96feaad3fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:33:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Scheduled script send email notification past End Date">e21afc8e83ec0f105587fa96feaad3a2</copied_from>
+        <description>Tests that the script send an email notification to the request loaner about their overdue loan. Two things are validated in this test. First, that the script trigger the event registration "loaner.overdue". And second, that the notification listening to that event actually send the email.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Validate content of Overdue email notification</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:31:35</sys_created_on>
+        <sys_id>521081ca83204f105587fa96feaad378</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Validate content of Overdue email notification</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_521081ca83204f105587fa96feaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:32:37</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=521081ca83204f105587fa96feaad378"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_test_521081ca83204f105587fa96feaad378</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Scheduled script send email notification past End Date">e21afc8e83ec0f105587fa96feaad3a2</copied_from><description>Tests that the script send an email notification to the request loaner about their overdue loan. Two things are validated in this test. First, that the script trigger the event registration "loaner.overdue". And second, that the notification listening to that event actually send the email.</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Validate content of Overdue email notification</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 19:31:35</sys_created_on><sys_id>521081ca83204f105587fa96feaad378</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Validate content of Overdue email notification</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_test_521081ca83204f105587fa96feaad378</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 19:32:37</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=521081ca83204f105587fa96feaad378"/></record_update>]]></payload>
+        <payload_hash>-1424516023</payload_hash>
+        <record_name>Validate content of Overdue email notification</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:32:37</sys_created_on>
+        <sys_id>a950c9ca83204f105587fa96feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddfe0fd940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:32:37</sys_updated_on>
+        <type>Test</type>
+        <update_guid>e550c9caf9204f10c6a83c3298932eb1</update_guid>
+        <update_guid_history>e550c9caf9204f10c6a83c3298932eb1:-1424516023,de1081ca8e204f102f4ceb5e8e8b6d7b:-1806954727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:33:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>25eaf86147b147ae906093da6d3a0584</sys_id>
+        <sys_metadata>521081ca83204f105587fa96feaad378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate content of Overdue email notification</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_test_521081ca83204f105587fa96feaad378</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_521081ca83204f105587fa96feaad378">a950c9ca83204f105587fa96feaad3b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:33:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

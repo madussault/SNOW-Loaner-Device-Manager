@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Requester + record insert - Loaner Template">e31dc7c2835447105587fa96feaad366</copied_from>
-        <description>Tests that the script can find deployed loans that are past their end date and changes their State to Overdue.</description>
+        <copied_from display_value="Scheduled script send email notification past End Date">e21afc8e83ec0f105587fa96feaad3a2</copied_from>
+        <description/>
         <enable_parameterized_testing>false</enable_parameterized_testing>
         <fail_on_server_error>true</fail_on_server_error>
-        <name>Scheduled script changes State from Deployed to Overdue</name>
+        <name>Validate content of Overdue email notification</name>
         <parameters/>
         <remember/>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-18 19:39:53</sys_created_on>
-        <sys_id>baee03c6835447105587fa96feaad313</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Scheduled script changes State from Deployed to Overdue</sys_name>
+        <sys_created_on>2026-04-30 19:34:08</sys_created_on>
+        <sys_id>77a0090e83204f105587fa96feaad35d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate content of Overdue email notification</sys_name>
         <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
-        <sys_update_name>sys_atf_test_baee03c6835447105587fa96feaad313</sys_update_name>
+        <sys_update_name>sys_atf_test_77a0090e83204f105587fa96feaad35d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-30 18:52:51</sys_updated_on>
+        <sys_updated_on>2026-04-30 19:38:09</sys_updated_on>
         <test_origin>manual</test_origin>
     </sys_atf_test>
-    <sys_variable_value action="delete_multiple" query="document_key=baee03c6835447105587fa96feaad313"/>
+    <sys_variable_value action="delete_multiple" query="document_key=77a0090e83204f105587fa96feaad35d"/>
 </record_update>
