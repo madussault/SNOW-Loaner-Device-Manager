@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Testing the dashboard Loaner Device Management and it's reports. We could not validate that the dashboard is not visible to the requesters because they are not authorized to navigate to the module in the app menu. The visibility by role of the dashboard module is tested in an other child suite.</description>
+        <input_filter/>
+        <name>Loaner Device Management</name>
+        <parent display_value="Dashboards">46344d0683604f105587fa96feaad317</parent>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:58:37</sys_created_on>
+        <sys_id>99260d0a83604f105587fa96feaad35e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Loaner Device Management</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_suite_99260d0a83604f105587fa96feaad35e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:39:30</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

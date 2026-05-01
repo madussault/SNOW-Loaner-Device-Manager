@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Confirm that the 'Heading &lt;h1&gt;: Loaner Device Management' component is enabled, Page area: 'Screen content &gt; Dashboard name is Loaner Device Man...'</description>
+        <display_name>Component State Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"96b06ec28c62bb46429680fe5e0ee121":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Heading &lt;h1&gt;: Loaner Device Management\",\"inner_text\":\"Loaner Device Management\",\"sn_atf_mugshot_long_description\":\"Heading &lt;h1&gt;: Loaner Device Management\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Loaner Device Management\",\"version\":\"26.0\",\"sn_atf_mugshot_label_for_label_path\":\"\",\"interesting_element_path\":[\"body\",\"macroponent-f51912f4c700201072b211d4d8c26010\",\"sn-canvas-appshell-root\",\"sn-canvas-appshell-layout\",\"sn-polaris-layout\",\"sn-canvas-appshell-main\",\"sn-canvas-experience-shell\",\"macroponent-76a83a645b122010b913030a1d81c780\",\"sn-canvas-root\",\"sn-canvas-layout\",\"sn-canvas-main\",\"sn-canvas-screen\",\"screen-action-transformer-923a913b532c0110aab9ddeeff7b1243\",\"macroponent-163a913b532c0110aab9ddeeff7b1241\",\"now-uxf-page\",\"sn-dashboard\",\"data-store-provider\",\"sn-dashboard-main\",\"dashboard-header\",\"now-heading\",\"h1\"],\"get_value_result\":\"Loaner Device Management\",\"sn_atf_mugshot_tag_display_name\":\"Heading &lt;h1&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"h1\",\"isDisabled\":false,\"label_path\":[\"Screen content\",\"Dashboard name is Loaner Device Man...\"],\"hash\":\"96b06ec28c62bb46429680fe5e0ee121\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Component State Validation (Custom UI)">38907e937322130007d738682bf6a742</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:52:49</sys_created_on>
+        <sys_id>d4552d1e83e8cf105587fa96feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Component State Validation (Custom UI)</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_d4552d1e83e8cf105587fa96feaad307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:52:49</sys_updated_on>
+        <table/>
+        <test display_value="Dashboard is visible to Fulfiller">bd6a494283a04f105587fa96feaad370</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d4552d1e83e8cf105587fa96feaad307"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d4552d1e83e8cf105587fa96feaad307</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:52:49</sys_created_on>
+        <sys_id>5a55ed1e83e8cf105587fa96feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:52:49</sys_updated_on>
+        <value>enabled</value>
+        <variable display_value="Assert type">cd3c61c07372130007d738682bf6a743</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d4552d1e83e8cf105587fa96feaad307</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:52:49</sys_created_on>
+        <sys_id>9e55ed1e83e8cf105587fa96feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:52:49</sys_updated_on>
+        <value>96b06ec28c62bb46429680fe5e0ee121</value>
+        <variable display_value="Component">134b69807372130007d738682bf6a7d8</variable>
+    </sys_variable_value>
+</record_update>

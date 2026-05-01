@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Dashboard is visible to Fulfiller">bd6a494283a04f105587fa96feaad370</copied_from>
+        <description>Tests that the following reports are visible to the fulfiller: Active Deployments, Loans by State, Overdue Loaner Devices.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Reports are visible to Fulfiller</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:41:07</sys_created_on>
+        <sys_id>47a265da83a8cf105587fa96feaad362</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reports are visible to Fulfiller</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_test_47a265da83a8cf105587fa96feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:42:57</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=47a265da83a8cf105587fa96feaad362"/>
+</record_update>

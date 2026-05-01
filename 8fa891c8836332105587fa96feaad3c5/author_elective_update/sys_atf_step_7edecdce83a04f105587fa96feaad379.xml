@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Navigate to Module">cc6e8d4e83a04f105587fa96feaad38c</copied_from>
+        <description>Navigate to the 'Dashboard' module in the 'Loaner Device Manager' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 20:36:03</sys_created_on>
+        <sys_id>7edecdce83a04f105587fa96feaad379</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_7edecdce83a04f105587fa96feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 20:36:41</sys_updated_on>
+        <table/>
+        <test display_value="Dashboard is not visible to Requester">2ede49ca83a04f105587fa96feaad35d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=7edecdce83a04f105587fa96feaad379"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7edecdce83a04f105587fa96feaad379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 20:36:03</sys_created_on>
+        <sys_id>7adecdce83a04f105587fa96feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 20:36:03</sys_updated_on>
+        <value>8a598f418333f2105587fa96feaad304</value>
+        <variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=7edecdce83a04f105587fa96feaad379"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</application>
+        <file_path/>
+        <instance_id>ea649d2f1be671949377eb9b2d4bcb3c</instance_id>
+        <instance_name>dev221287</instance_name>
+        <name>sys_atf_step_7edecdce83a04f105587fa96feaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Navigate to Module">cc6e8d4e83a04f105587fa96feaad38c</copied_from><description>Navigate to the 'Dashboard' module in the 'Loaner Device Manager' application</description><display_name>Navigate to Module</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 20:36:03</sys_created_on><sys_id>7edecdce83a04f105587fa96feaad379</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Navigate to Module</sys_name><sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package><sys_policy/><sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope><sys_update_name>sys_atf_step_7edecdce83a04f105587fa96feaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 20:36:41</sys_updated_on><table/><test display_value="Dashboard is not visible to Requester">2ede49ca83a04f105587fa96feaad35d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7edecdce83a04f105587fa96feaad379"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7edecdce83a04f105587fa96feaad379</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 20:36:03</sys_created_on><sys_id>7adecdce83a04f105587fa96feaad37b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 20:36:03</sys_updated_on><value>8a598f418333f2105587fa96feaad304</value><variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=7edecdce83a04f105587fa96feaad379"/></record_update>]]></payload>
+        <payload_hash>-1416020176</payload_hash>
+        <record_name>Navigate to Module</record_name>
+        <reverted_from/>
+        <source>8d006d4883a332105587fa96feaad364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 20:36:41</sys_created_on>
+        <sys_id>0c0fc50283e04f105587fa96feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19de01ba68a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 20:36:41</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>480fc50215e04f108ac701e08f9706f6</update_guid>
+        <update_guid_history>480fc50215e04f108ac701e08f9706f6:-1416020176,07eec102ffe04f10a055e0be3f2e0dea:80093876,72decdce70a04f1021acfa0fd8d7607e:1153428917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 20:38:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>127e24b02a0b4edf8b0971ee5750bb79</sys_id>
+        <sys_metadata>7edecdce83a04f105587fa96feaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_scope_delete display_value="">0001bfa9cd2845508000001f3e316990</sys_scope_delete>
+        <sys_update_name>sys_atf_step_7edecdce83a04f105587fa96feaad379</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_7edecdce83a04f105587fa96feaad379">0c0fc50283e04f105587fa96feaad3f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 20:38:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Confirm that the 'Heading &lt;h2&gt;: Overdue Loaner Devices' component is enabled, Page area: 'Screen content'</description>
+        <display_name>Component State Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"103950a3eec280e22eb0caa10b88dfe9":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Heading &lt;h2&gt;: Overdue Loaner Devices\",\"inner_text\":\"Overdue Loaner Devices\",\"sn_atf_mugshot_long_description\":\"Heading &lt;h2&gt;: Overdue Loaner Devices\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Overdue Loaner Devices\",\"version\":\"26.0\",\"sn_atf_mugshot_label_for_label_path\":\"\",\"interesting_element_path\":[\"body\",\"macroponent-f51912f4c700201072b211d4d8c26010\",\"sn-canvas-appshell-root\",\"sn-canvas-appshell-layout\",\"sn-polaris-layout\",\"sn-canvas-appshell-main\",\"sn-canvas-experience-shell\",\"macroponent-76a83a645b122010b913030a1d81c780\",\"sn-canvas-root\",\"sn-canvas-layout\",\"sn-canvas-main\",\"sn-canvas-screen\",\"screen-action-transformer-923a913b532c0110aab9ddeeff7b1243\",\"macroponent-163a913b532c0110aab9ddeeff7b1241\",\"now-uxf-page\",\"sn-dashboard\",\"data-store-provider\",\"sn-dashboard-main\",\"par-dashboard-content\",\"grid-stack-renderer\",\"component-renderer\",\"macroponent-d24d53f60350de7a652caf3188a46ed2\",\"sn-par-visualization-base\",\"sn-par-visualization-header\",\"sn-par-widget-header\",\"div\",\"now-heading\",\"h2\"],\"get_value_result\":\"Overdue Loaner Devices\",\"sn_atf_mugshot_tag_display_name\":\"Heading &lt;h2&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"h2\",\"isDisabled\":false,\"label_path\":[\"Screen content\"],\"hash\":\"103950a3eec280e22eb0caa10b88dfe9\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Component State Validation (Custom UI)">38907e937322130007d738682bf6a742</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:48:27</sys_created_on>
+        <sys_id>ac44add283e8cf105587fa96feaad3ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Component State Validation (Custom UI)</sys_name>
+        <sys_package display_value="Loaner Device Manager" source="x_1883746_loaner_0">8fa891c8836332105587fa96feaad3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device Manager">8fa891c8836332105587fa96feaad3c5</sys_scope>
+        <sys_update_name>sys_atf_step_ac44add283e8cf105587fa96feaad3ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:49:02</sys_updated_on>
+        <table/>
+        <test display_value="Reports are visible to Fulfiller">47a265da83a8cf105587fa96feaad362</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ac44add283e8cf105587fa96feaad3ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ac44add283e8cf105587fa96feaad3ef</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:48:27</sys_created_on>
+        <sys_id>5654a91683e8cf105587fa96feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:48:27</sys_updated_on>
+        <value>enabled</value>
+        <variable display_value="Assert type">cd3c61c07372130007d738682bf6a743</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ac44add283e8cf105587fa96feaad3ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-01 16:48:27</sys_created_on>
+        <sys_id>9a54a91683e8cf105587fa96feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-01 16:48:27</sys_updated_on>
+        <value>103950a3eec280e22eb0caa10b88dfe9</value>
+        <variable display_value="Component">134b69807372130007d738682bf6a7d8</variable>
+    </sys_variable_value>
+</record_update>
